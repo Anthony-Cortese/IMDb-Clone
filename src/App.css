@@ -1,0 +1,65 @@
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+
+@font-face {
+    font-family: "Amazon Ember"; 
+    src: url("//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember");
+    font-style: normal;
+    font-weight: 50;
+  }
+
+  body {
+  /* width: 100%; */
+  /* background-color: rgb(52, 49, 49); */
+  background-color: rgb(0,0,0);
+  font-family: "Amazon Ember";
+
+}
+
+/* the div on the app that allows movement */
+.App-header {
+  display:flex;
+  align-items: center;
+  align-content: space-around;
+  align-items: center;
+  font-family: 'Amazon Ember';
+  height: 3.6rem;
+  /* background-color: rgb(20, 20, 20); */
+  /* border: 1px solid orange; */
+  max-width: 100%;
+  /* display:flex; */
+  font-family: 'Amazon Ember';
+  /* border: 1px solid orange; */
+}
+
+.footer-div {
+  display: flex;
+  justify-content: center;
+  max-width: 100%
+  /* background-color: rgb(20, 20, 20); */
+}
+.page-body {
+  display: flex;
+  justify-content: center;
+}
+.navigation{
+	height: 100%;
+  width: 100%;
+  animation-duration: 3s;
+  animation-name: unset;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  top: 0;
+  /* background-color: rgb(0,0,0); Black fallback color */
+  background-color: rgb(33, 31, 31);; /* Black w/opacity */
+  overflow-x: hidden; 
+  /* Disable horizontal scroll */
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 1s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+.overlay .closebtn {
+  position: absolute;
+}
+
+ 

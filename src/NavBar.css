@@ -1,0 +1,285 @@
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+
+@font-face {
+    font-family: "Amazon Ember"; 
+    src: url("//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember");
+    font-style: normal;
+    font-weight: 50;
+  }
+.main-navbar {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Amazon Ember';
+    height: 3.6rem;
+    background-color: rgb(20, 20, 20);
+    /* border: 1px solid orange; */
+    width: 100%
+}
+.imdb-logo { 
+    /* the div that contains the logo */
+    width: 5rem;
+    margin: .3rem;
+    margin-right: 2.5rem;
+    margin-bottom: 2.5rem;
+    /* border: 1px solid orange; */
+    
+}
+
+.imdb-image {
+    /* img sizing */
+    width: 5rem;
+    object-fit: contain;
+    margin-right: 1rem;
+    /* border: 1px solid orange; */
+}
+.input {
+    width: 34rem;
+    height: 1.6rem;
+    border-radius: 0px 8px 8px 0px;
+    font-family: 'Amazon Ember';
+    margin-left: -3px;
+    /* position: absolute; */
+    
+}
+.show-page {
+    border-radius: 4px;
+    background-color: #505050;
+    height: 350px;
+    width: 500px;
+    /* background-color: rgb(20, 20, 20); */
+    position: absolute;
+    padding: 6px
+}
+
+.small-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.movie-poster {
+    display: flex;
+    justify-content: center;
+}
+.movie-posters {
+    height: 264px;
+    width: 174px;
+    border: 1px solid black
+}
+.movie-posters1 {
+    height: 264px;
+    width: 174px;
+    border: 1px solid black
+}
+.movie-posters2 {
+    height: 264px;
+    width: 174px;
+    border: 1px solid black
+}
+.search {
+    /* border: 1px solid red; */
+    /* margin-top: 1.3rem; */
+}
+button:focus,
+select:focus {
+    outline: none;
+}
+input:focus,
+select:focus{
+  outline: none;  
+}
+/* divs controling the buttons */
+.menu {
+    margin:.8rem;
+    object-fit: contain;
+}
+
+.tv {
+    margin:.8rem;
+    object-fit: contain;
+}
+
+/* .pro {
+    margin-right: .8rem;
+    object-fit: contain;
+} */
+.search-icon {
+    position: relative;
+    right: 2rem;
+    top: 4px;
+    object-fit: contain;
+    font-size: 18px;
+    color: gray;
+    /* border: 1px solid red */
+
+}
+
+.watch {
+    margin: .8rem;
+    object-fit: contain;
+}
+
+.sign {
+    margin: .5rem;
+    object-fit: contain;
+}
+
+.font{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.font1 {
+    font-size: 14px;
+    color: magenta;
+    margin-left: 3px;
+}
+
+.font2 {
+    font-size: 16px;
+    font-weight: bolder;
+}
+.menu-font {
+    font-size: 16px;
+}
+.t-dots {
+    position: relative;
+    top: 3.5px;
+    color: gray;
+    font-size: 16px;
+    /* right: 20px */
+
+}
+
+.checkmark {
+   position: relative;
+   top: 3px;
+   color: gray; 
+}
+
+/* buttons */
+.menu-button {
+    width: 5rem;
+    height: 2rem;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: whitesmoke;
+    object-fit: contain;
+    transition-duration: 0.4s;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Amazon Ember';
+    position: relative;
+    bottom: 2px;        
+
+}
+.menu-button:hover {
+    background-color: #505050;
+}
+
+.imdb-tv {
+    width: 5rem;
+    height: 2rem;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: whitesmoke;
+    object-fit: contain;
+    transition-duration: 0.4s;
+    border-radius: 3px;
+    font-size: 16px; 
+    font-weight: bold;
+    font-family: 'Amazon Ember';
+      
+}
+.imdb-tv:hover {
+    background-color: #505050;
+}
+.all-button {
+    height: 2rem;
+    width: 3rem;
+    border-radius: 8px 0px 0px 8px;
+    object-fit: contain;
+    font-family: 'Amazon Ember';
+    
+}
+
+.imdb-pro {
+    width: 5rem;
+    height: 2rem;
+    margin-right: 2rem;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: whitesmoke;
+    object-fit: contain;
+    transition-duration: 0.4s;
+    border-radius: 3px;
+    font-family: 'Amazon Ember'           
+}
+
+.imdb-pro:hover {
+    background-color: #505050;
+}
+.line {
+    height: 35px;
+    border-left: .3px solid rgba(169, 169, 169, 0.844);
+}
+
+.watchlist {
+    width: 6.4rem;
+    height: 2rem;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: whitesmoke;
+    object-fit: contain;
+    transition-duration: 0.4s;
+    border-radius: 3px;
+    font-family: 'Amazon Ember'; 
+    font-size: 16px;   
+    font-weight: bold;       
+}
+.watchlist:hover {
+    background-color: #505050;
+}
+
+.sign-in {
+    width: 5rem;
+    height: 2rem;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: whitesmoke;
+    object-fit: contain;
+    transition-duration: 0.4s;
+    border-radius: 3px;
+    font-family: 'Amazon Ember';
+    font-size: 16px;  
+    font-weight: bold;          
+}
+.sign-in:hover {
+    background-color: #505050;
+}
+
+@media (max-width: 1397px) {
+    .search {
+        /* margin-top: 1.4rem; */
+    }
+
+    .search-icon {
+        display: none;
+    }
+}

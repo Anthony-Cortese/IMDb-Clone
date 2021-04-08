@@ -1,0 +1,196 @@
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+
+@font-face {
+    font-family: "Amazon Ember"; 
+    src: url("//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember");
+    font-style: normal;
+    font-weight: 50;
+  }
+
+.main-menu {
+    /* background-color: black; */
+}
+
+.main-menu {
+    /* border: 1px solid black; */
+    color: whitesmoke;
+    text-decoration: none;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 700px;
+  
+  
+    
+  }
+  
+  .page-logo {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    max-width: 50%;
+    margin-left: 25%;
+    /* width: 48px; */
+    /* height: 48px; */
+  
+  }
+  .yellow {
+    /* border: 1px solid red; */
+    /* margin-left: 22rem; */
+    margin-top: 2rem;
+    height: 58px;
+    width: 110px;
+    /* margin-right: 2rem; */
+    /* object-fit: contain; */
+  }
+  img {
+    height: 58px;
+    width: 48px;
+    margin-top: 2.5rem;
+    margin-right: 2rem;
+  }
+  .x {
+    /* border: 1px solid red; */
+    /* margin-right: 30rem; */
+    object-fit: contain;
+  }
+  .x img {
+    /* width: 5rem; */
+  }
+  .movie-celebs {
+    /* border: 1px solid pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* justify-content: flex-end; */
+    align-items: center;
+    width: 300px;
+    max-height: 600px;
+    margin: 2rem;
+    padding: 2rem;
+    margin-left: 6rem;
+  }
+  .tv-watch {
+    /* border: 1px solid pink; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 300px;
+    max-height: 600px;
+    margin: 2rem;
+    padding: 2rem;
+  }
+  .awards-community {
+    /* border: 1px solid pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    max-height: 600px;
+    margin: 2rem;
+    padding: 2rem;
+  }
+  .movie-menu {
+    /* border: 1px solid indigo; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .movie-icon {
+    color: #F5DE50;
+  }
+  a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 2rem;
+  }
+  
+  .celebs-icon {
+    color: #F5DE50
+  }
+  
+  .celebs-menu {
+    /* border: 1px solid indigo; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .tvshow-menu {
+    /* border: 1px solid indigo; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .watch-menu {
+    /* border: 1px solid indigo; */
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+    margin-top: 4rem;
+  }
+  
+  .awards-menu {
+    /* border: 1px solid indigo; */
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+  }
+  
+  .community-menu {
+    /* border: 1px solid indigo; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .movies{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: .6rem;
+    font-family: "Amazon Ember";
+  }
+
+  .celebs {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: .6rem;
+    font-family: "Amazon Ember";
+  }
+
+  .tvshow{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: .6rem;
+    font-family: "Amazon Ember";
+  }
+
+  .awards {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: .6rem;
+    font-family: "Amazon Ember";
+  }
+
+  .community {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: .6rem;
+    font-family: "Amazon Ember";
+  }
+  
+  .lists {
+    font-size: 17px;
+    padding: 4px;
+  }
+  /* 1000px turns into a sidebar */
+  
+  
