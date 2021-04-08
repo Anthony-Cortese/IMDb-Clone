@@ -1,0 +1,32 @@
+.dropdown-menu {
+    display:flex;
+    flex-direction: column;
+    /* align-content: space-around; */
+    /* margin-top: 24rem; */
+    height: 353px;
+    width: 235px;
+    background-color: lightblue;
+    position: absolute;
+    background-color: rgb(20, 20, 20);
+}
+
+.dropdown {
+    padding: 14.5px;
+    margin-left: 15px;
+    font-family: "Amazon Ember";
+    font-size: 17px;
+}
+
+.dropdown:hover {
+    background-color: #505050;
+}
+
+.dropdown-icon {
+    color: gray;
+    padding-right: 3px;
+}
+
+.line1 {
+    border-bottom: 1px solid gray;
+    color: lightgray
+}

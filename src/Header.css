@@ -1,0 +1,10 @@
+.main-header {
+    border: 1px solid red;
+    height: 1rem;
+    max-width: 100%;
+    background-color: #303030;
+}
+
+.header-navbar {
+    border: 1px solid orange
+}
