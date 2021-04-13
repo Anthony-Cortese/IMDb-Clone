@@ -31,31 +31,34 @@ function NavBar() {
                 
             
             </div>
-            <div className='tv'>
+           <Link to='/IMDbTv'> <div className='tv'>
                 <button onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)} className='imdb-tv'>
                     <span className='font'>IMDb</span>
                     <span className='font1'>tv</span>
-                </button>
+                </button> 
                 {isShown && (
-                    <div className='show-page'>
+                    <div onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)} className='show-page'>
                         <div className='small-header'>
-                            <h1>Featured</h1> <a href={url}>Browse More Titles ▹</a>
+                            <h1 className='navbar-font'>Featured</h1> <a href={url}>Browse More Titles ▹</a>
                         </div>
                         <div className='movie-poster'>
                         <div className='movie-posters'>
-
+                        <img className='movie-posters' src="https://i.ibb.co/6vhbLFQ/MV5-BMm-Ez-NTkx-Yj-Qt-ZTc0-MC00-YTVj-LTg5-ZTEt-ZWMw-OWVl-Yz-Y0-NWIw-Xk-Ey-Xk-Fqc-Gde-QXVy-Nzkw-Mj-Q5.jpg" alt="MV5-BMm-Ez-NTkx-Yj-Qt-ZTc0-MC00-YTVj-LTg5-ZTEt-ZWMw-OWVl-Yz-Y0-NWIw-Xk-Ey-Xk-Fqc-Gde-QXVy-Nzkw-Mj-Q5" border="0"/>
+                        
                         </div>
-                        <div className='movie-posters1'>
+                        <div className='movie-posters'>
+                        <img className='movie-posters' src="https://i.ibb.co/rm1nTFC/MV5-BZDhk-Mj-Uy-Yj-It-YWVk-Yi00-YTM5-LWE4-MGEt-Y2-Fl-Mj-A3-OThl-Ym-Zh-Xk-Ey-Xk-Fqc-Gde-QXVy-ODk4-OTc.jpg" alt="MV5-BZDhk-Mj-Uy-Yj-It-YWVk-Yi00-YTM5-LWE4-MGEt-Y2-Fl-Mj-A3-OThl-Ym-Zh-Xk-Ey-Xk-Fqc-Gde-QXVy-ODk4-OTc" border="0"/>
+                        </div>
+                        <div className='movie-posters'>
+                        <img className='movie-posters' src="https://i.ibb.co/rfqbQCX/MV5-BMGUw-Zjli-MTAt-Nz-Ax-Zi00-MWNi-LWE2-Nzgt-ZGUx-MGQx-Zjhh-NDRi-Xk-Ey-Xk-Fqc-Gde-QXVy-Nj-U1-Nz-U3.jpg" alt="MV5-BMGUw-Zjli-MTAt-Nz-Ax-Zi00-MWNi-LWE2-Nzgt-ZGUx-MGQx-Zjhh-NDRi-Xk-Ey-Xk-Fqc-Gde-QXVy-Nj-U1-Nz-U3-" border="0"/>
                             
                         </div>
-                        <div className='movie-posters2'>
-                            
-                        </div>
+            
                         </div>
                         
                     </div>    
                 )}
-            </div>
+            </div> </Link>
             <div className='all'>
                 <button className='all-button' onClick={() => setOpen(open => !open)}>All ▾</button>
                 {open && <Dropdown />}

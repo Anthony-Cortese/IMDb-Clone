@@ -1,13 +1,12 @@
 .dropdown-menu {
     display:flex;
     flex-direction: column;
-    /* align-content: space-around; */
-    /* margin-top: 24rem; */
     height: 353px;
     width: 235px;
     background-color: lightblue;
     position: absolute;
     background-color: rgb(20, 20, 20);
+    /* position: absolute; */
 }
 
 .dropdown {
@@ -15,6 +14,7 @@
     margin-left: 15px;
     font-family: "Amazon Ember";
     font-size: 17px;
+    /* position: absolute; */
 }
 
 .dropdown:hover {

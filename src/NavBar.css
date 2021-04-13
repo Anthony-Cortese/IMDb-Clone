@@ -44,12 +44,13 @@
 }
 .show-page {
     border-radius: 4px;
-    background-color: #505050;
+    background-color:  rgb(20, 20, 20);
     height: 350px;
-    width: 500px;
+    width: 600px;
     /* background-color: rgb(20, 20, 20); */
     position: absolute;
     padding: 6px
+
 }
 
 .small-header {
@@ -59,23 +60,19 @@
 }
 .movie-poster {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+
+   
 }
 .movie-posters {
     height: 264px;
     width: 174px;
-    border: 1px solid black
+    /* border: 1px solid black; */
+    position: relative;
+    bottom: 1.4rem;
 }
-.movie-posters1 {
-    height: 264px;
-    width: 174px;
-    border: 1px solid black
-}
-.movie-posters2 {
-    height: 264px;
-    width: 174px;
-    border: 1px solid black
-}
+
 .search {
     /* border: 1px solid red; */
     /* margin-top: 1.3rem; */
@@ -150,7 +147,9 @@ select:focus{
     /* right: 20px */
 
 }
-
+.navbar-font {
+    color: gray
+}
 .checkmark {
    position: relative;
    top: 3px;
@@ -201,6 +200,8 @@ select:focus{
 .imdb-tv:hover {
     background-color: #505050;
 }
+
+
 .all-button {
     height: 2rem;
     width: 3rem;

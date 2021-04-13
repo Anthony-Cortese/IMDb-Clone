@@ -1,5 +1,10 @@
+.big-div {
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: center;
+}
 .main-div {
-    border: 1px solid black;
+    /* border: 4px solid white; */
     /* background-color: white; */
     height: 563px;
     width: 1279px;
@@ -10,42 +15,98 @@
 
 }
 
-.second-div {
-    border: 1px solid red;
+.first-div{
+    width: 100%;
+    height: 340px;
+    /* border: 1px solid white; */
     display: flex;
-    flex-direction: row ;
-    justify-content: flex-start;
-    height:547px ;
-    width:850px ;
-    background-color: black;
-    
-
+    justify-content: center;
 
 }
 
+ .ads-div {
+    height: 320px;
+    width: 800px;
+    /* border: 1px solid orange; */
+    display: flex;
+} 
+
+.ad-img {
+    height: 242px;
+    width: 780px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.left-side {
+    position: absolute;
+    border: 1px solid orange;
+    margin-left: 54rem;
+    
+}
 .up-next1 {
     width: 403px;
     height: 52px;
     /* margin-top: 7px; */
     text-align: left;
 }
-
 .trailer1 {
     border: 1px solid orange;
     height: 148px;
     width: 403px;
+    display: flex;
 }
+
+ .trailer-img {
+  width: 88px;
+  height: 130px;
+  border: 1px solid orange;
+  /* margin-bottom: 2rem; */
+ }
+
+.trailer-img1 {
+    width: 88px;
+    height: 130px;
+    /* margin-bottom: 2rem; */
+    object-fit: cover;
+    position: relative;
+    bottom: 2.4rem;
+    /* margin-bottom: 4rem; */
+
+
+}
+
+.trailer-title {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* border: 1px solid orange; */
+}
+
+.play-circle {
+    color: whitesmoke;
+    font-size: 48px;
+    
+}
+
+.play-circle:hover {
+    color: #f5c518
+}
+
+
 
 .trailer2 {
     border: 1px solid orange;
     height: 148px;
     width: 403px;
+    display: flex;
 }
 
 .trailer3 {
     border: 1px solid orange;
     height: 148px;
     width: 403px;
+    display: flex;
 }
 
 .browse {
@@ -59,6 +120,13 @@
    font-size: 32px;
 
 } 
+
+.featured-img {
+    height: 222px;
+    width: 394px;
+    object-fit: cover;
+    /* margin-bottom: 2rem;  */
+}
 .get-more {
     font-size: 13px;
     color: #5799ef
@@ -103,8 +171,8 @@
 
 .featured {
     width: 861.31px;
-    height: 418px;
-    border: 1px solid red;
+    height: 398px;
+    /* border: 1px solid red; */
     
 }
 .lists-div {
@@ -114,12 +182,14 @@
 
 }
 .list {
-    /* flex-direction: row; */
+    flex-direction: row;
     height: 222px;
     width: 394px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    margin-bottom: 2rem;
+    /* object-fit: contain; */
     
-}
+} 
 
 .title {
     border: 1px solid red;
@@ -151,7 +221,7 @@
 .watchlist-div {
     height: 316.33px;
     width: 1279.97px;
-    border: 1px solid blue
+    /* border: 1px solid blue */
 }
 
 .watch-list {
@@ -169,55 +239,108 @@
     color: gray;
 }
 
+/* unvisited link */
+.streaming-li1:link {
+    color: whitesmoke;
+  }
+  
+  /* visited link */
+  .streaming-li1:visited {
+    color:whitesmoke;
+  }
+  
+  /* mouse over link */
+  .streaming-li1:hover {
+    color: whitesmoke;
+    text-decoration: underline, #f5c518
+  }
+  
+  /* selected link */
+  .streaming-li1:active {
+    color: whitesmoke;
+    text-decoration: underline, #f5c518
+  }
+  
+
 .film-list {
-    width: 1279.97px;
+    width: 1280px;
     height: 542.25px;
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    margin-left: 1rem;
 
 }
 
-.movie-poster {
-   height: 274.25px;
-   width: 185.31px; 
-   border:  1px solid turquoise
-}
+/* .film-list1 {
+    width: 880px;
+    height: 542.25px;
+    border: 1px solid salmon;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+
 
 .film-info {
     width: 185.31px;
     height: 177px;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
+    background-color: rgb(51,51,51)
 }
 
 .rating {
     width: 185.31px;
     height: 30px;
-    border: 1px solid yellow;
-    color: #f5c518
+    /* border: 1px solid yellow; */
+    color: #f5c518;
+    background-color: rgb(51,51,51)
 }
 
 .film-name {
     width: 185.31px;
     height: 50px;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     color: whitesmoke;
+    background-color: rgb(51,51,51)
 }
 
 .options {
     width: 185.31px;
     height: 90px;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: rgb(84,142,221) 
 
 }
 
 .watch-button {
+    width: 169.9px;
+    height: 36px;
+    background-color: rgb(39,39,39) ;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: rgb(84,142,221);
+    object-fit: contain;
+    transition-duration: 0.4s;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Amazon Ember';
+    position: relative;
+    bottom: 2px;        
+}
+
+.watch-button1 {
     width: 169.9px;
     height: 36px;
     background-color: Transparent;
@@ -233,13 +356,12 @@
     font-weight: bold;
     font-family: 'Amazon Ember';
     position: relative;
-    bottom: 2px;        
+    bottom: 2px;
 }
-
 .more-to-watch {
     width: 1279.97px;
     height: 160px ;
-    border: 1px solid whitesmoke
+    /* border: 1px solid whitesmoke */
 }
 
 .more-button {
@@ -265,6 +387,14 @@
    display: flex; 
 }
 .para-tags {
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+
+    justify-content: space-around;
+}
+
+.interviews {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -316,7 +446,7 @@
 .new-movie {
     height: 221.97px;
     width: 394.63px;
-    border: 1px solid brown
+    /* border: 1px solid brown */
 
 }
 
@@ -353,12 +483,12 @@
 .celeb-title {
     height: 359.31px;
     width: 1279.97px;
-    border: 1px solid indigo;
+    /* border: 1px solid indigo; */
     align-items: center;
 }
 
 .celebrities-div {
-    border: 1px solid indigo;
+    /* border: 1px solid indigo; */
     align-items: center;
 
 }
@@ -373,23 +503,33 @@
 .celeb-img {
     height: 185.4px;
     width: 185.4px;
-    border: 1px solid indigo;
+    /* border: 1px solid indigo; */
     border-radius: 50%;
     
-    
+  
+}
+
+.celeb-img1 {
+    height: 180.4px;
+    width: 180.4px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 2.4rem;
 }
 
 .celeb-name {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        border: 1px solid salmon;
+        /* border: 1px solid salmon; */
+        width: 1260px;
+        padding-right: 4rem;
 } 
 
 .top-news {
     height: 198.19px;
     width: 1279.97px;
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -399,14 +539,22 @@
 .article-img {
     height: 133px;
     width: 90px;
-    border: 1px solid salmon
+    /* border: 1px solid salmon */
     
+}
+
+.article-img1 {
+    height: 133px;
+    width: 90px;
+    object-fit: cover;
+    position: relative;
+    bottom: 2.5rem;
 }
 
 .news-article {
     width: 394.96px;
     height: 133.19px;
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
     display: flex;
     
 }
@@ -437,4 +585,14 @@
     border: 2px solid whitesmoke;
     /* padding: 24px */
     margin: 4px;
+}
+
+.editors-img {
+    width: 394.63px;
+    height: 211.97px;
+    object-fit: cover;
+    border: 1px solid blue;
+    position: relative;
+    bottom: 2.3rem;
+    
 }

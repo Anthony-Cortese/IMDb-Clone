@@ -1,0 +1,169 @@
+.second-div {
+    /* border: 4px solid red; */
+    display: flex;
+    flex-direction: row ;
+    justify-content: flex-start;
+    height:560px ;
+    max-width: 870px;
+    position: relative;
+    left: 41rem;
+    top: .5rem;
+    
+    /* margin-left: 28rem; */
+    /* position: absolute; */
+}
+
+.second-div1 {
+    display: flex;
+    flex-direction: row ;
+    justify-content: flex-start;
+    height: 560px ;
+    max-width: 870px;
+    position: relative;
+    left: 41rem;
+    bottom: 2rem;
+}
+
+.second-div2 {
+    display: flex;
+    flex-direction: row ;
+    justify-content: flex-start;
+    height: 560px ;
+    max-width: 870px;
+    position: relative;
+    left: 41rem;
+    bottom: 2rem;
+}
+
+
+/* .slide-selected {
+    height:547px ;
+    width:870px ;
+    position: absolute;
+} */
+
+.background-img:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent 0%, black 100%);
+} 
+  /* opacity: .5; */
+
+.background-img {
+    height:547px ;
+    width: 870px;
+    background-image: url("https://i.ibb.co/7bXjrGF/109300-inception-617-409-compressed.jpg");
+    background-size: cover;
+    /* position: absolute;; */
+    /* z-index:-1; */
+
+    
+    
+}
+
+.background-img1 {
+    height:547px ;
+    width: 870px;
+    background-image: url("https://i.ibb.co/GdWpnkj/screen-shot-2017-03-06-at-9-25-42-am-e1565367625930.png");
+    background-size: cover;
+    bottom: 4rem;
+}   
+
+.background-img1:before {
+    content: '';
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent 0%, black 100%);
+  }
+  
+  .background-img2 {
+    height:547px ;
+    width: 870px;
+    background-image: url("https://i.ibb.co/fk2Pf6w/b25096c66b9ae89b0a46ee6e17be1761ae0ec32e.jpg");
+    background-size: cover;
+    bottom: 4rem;
+}   
+
+.background-img2:before {
+    content: '';
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent 0%, black 100%);
+  } 
+
+.second-info {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    top: 16rem
+}
+
+.second-front {
+    display: flex;
+    flex-direction: row;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.play-circle1{
+    font-size: 72px;
+    color: whitesmoke;
+}
+
+.play-circle1:hover{
+    color: #f5c518
+}
+
+.p-tag2 {
+    color: whitesmoke;
+    font-size: 32px;
+    text-align: left;
+}
+
+.p-tag3 {
+    color: #ffffffb3;
+    font-size: 22px; 
+}
+
+.second-img {
+    height: 245px;
+    width: 165px;
+    /* border: 1px solid orange; */
+    margin-bottom: 2.5rem;
+    padding-left: .5rem;
+}
+
+.inception-img {
+    height: 245px;
+    width: 164px;
+    /* border: 1px solid orange; */
+    margin-bottom: 1rem;
+    /* position: absolute; */
+
+}
+
+.watchlist-icon1 {
+    position: absolute;
+    font-size: 48px;
+    color: gray;
+    margin-top: 2rem;
+    
+}
+
+.arrow-butt {
+    /* height: 600px; */
+}

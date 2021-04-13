@@ -6,6 +6,9 @@ import NavBar from './NavBar'
 import SignIn from './SignIn'
 import Footer from './Footer'
 import Home from './Home';
+import Sean from './trailers/Sean';
+import Inception from './trailers/Inception'
+import ImdbTV from './ImdbTV';
 
 function App() {
   return (
@@ -31,6 +34,15 @@ function App() {
         </Route>
         <Route path="/Watchlist">
           <SignIn />
+        </Route>
+        <Route path="/Sean">
+          <Sean />
+        </Route>
+        <Route path="/inception">
+          <Inception />
+        </Route>
+        <Route path="/IMDbTv">
+          <ImdbTV />
         </Route>
 
         </Switch>

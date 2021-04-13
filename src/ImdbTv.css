@@ -1,0 +1,18 @@
+.imdbtv-div {
+    /* width: 1008px; */
+    /* height: 100%; */
+    /* border: 1px solid orange; */
+    /* background-color: gray; */
+}
+.main-ads {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+}
+.main-ads-img {
+    width: 800px;
+    height: 200px;
+    
+    border: 1px solid red;
+}

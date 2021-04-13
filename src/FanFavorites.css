@@ -1,0 +1,53 @@
+.arrow-button {
+    /* height: 40px; */
+    /* width: 40px; */
+    /* position: relative; */
+    /* top: 4rem; */
+}
+
+/* .carousel-fav {
+    height: 451px;
+    width: 1000px;
+    border: 1px solid red;
+    display: flex
+} */
+
+.films1 {
+    height: 500px;
+    width: 440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.films2 {
+    height: 460px;
+    width: 680px;
+    border: 1px solid salmon; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poster1 {
+    height: 274.25px;
+    width: 185.31px; 
+}
+
+.watchlist-icon2 {
+    position: absolute;
+    font-size: 48px;
+    color: gray;
+    margin-top: 2.5rem;
+    /* left: 1rem; */
+    margin-right: 4rem;
+    opacity: .6;
+}
+
+/* .movie-poster {
+    height: 274.25px;
+    width: 185.31px; 
+    border:  1px solid turquoise
+ } */
