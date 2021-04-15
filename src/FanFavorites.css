@@ -12,6 +12,11 @@
     display: flex
 } */
 
+.fan-favorites {
+    width: 1280px;
+    height: 642.25px;
+}
+
 .films1 {
     height: 500px;
     width: 440px;
@@ -51,3 +56,5 @@
     width: 185.31px; 
     border:  1px solid turquoise
  } */
+
+ 

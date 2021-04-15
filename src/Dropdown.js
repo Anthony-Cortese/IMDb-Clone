@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './Dropdown.css'
 import {AiOutlineSearch} from 'react-icons/ai'
 import { MdLocalMovies } from 'react-icons/md'

@@ -19,8 +19,15 @@ function FanFavorites() {
     
     
     return ( 
+                    
+        <div className='fan-favs'>
+                    <div className='fan-favorites'>
+                        <h1 className='title2'><FaGripLinesVertical className='react-icon' />Fan Favorites ➤</h1>
+                        <p className='p-tag1'>This week's top TV and movies</p>
+                    
                 
                 <div className='film-list'>
+
                         <div className='all-info'>
                         <GoBookmark className='watchlist-icon2' />
                             <div className='movie-poster'>
@@ -140,6 +147,8 @@ function FanFavorites() {
                             </div>
                         </div>
                         </div>
+                    </div>
+                    </div>
                     </div>
  
            )

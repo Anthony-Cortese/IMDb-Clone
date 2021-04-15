@@ -1,5 +1,5 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
+import React, {useState} from 'react'
+// import {Link} from 'react-router-dom'
 //import Featured from './Featured'
 import './Home.css'
 import './FanFavorites.css'
@@ -12,10 +12,17 @@ import FanFavorites from './FanFavorites'
 import TvShows from './TvShows'
 import Trailers from './Trailers'
 
+import ModalVideo from 'react-modal-video'
+// import 'react-modal-video/scss/modal-video.scss'
+import './Trailers.scss'
+import Featured from './Featured'
+import News from './News'
+
 
 
 function Home() {
-    
+    const [isOpen, setOpen] = useState(false)
+     
     return (
         <div className='big-div'>
             <div className='first-div'>
@@ -35,7 +42,9 @@ function Home() {
                                 <img className='trailer-img1' src="https://i.ibb.co/6Jncq8t/83647855-10158906901436756-8680783986512887808-n.jpg" alt="83647855-10158906901436756-8680783986512887808-n" border="0"/>
                                 </div>
                                 <div className='trailer-title'>
-                              <Link to='/Sean'> <BiPlayCircle className='play-circle' /> </Link>
+                                <ModalVideo className='modal-video' channel='youtube' autoplay isOpen={isOpen} videoId='https://www.youtube.com/watch?v=dQaKtMkgP5I&t=4s' onClose={() => setOpen(false)} />
+
+                                    <button className="play-button1" onClick={()=> setOpen(true)}><BiPlayCircle className='play-circle' /></button>
                                     <span className='p-tag'>"Sean Cortese"</span>
                                     <span className='p-tag1'>Watch his new monologue</span>
                                 </div>
@@ -45,27 +54,31 @@ function Home() {
                             </div>
                             <div className='trailer2'>
                             <div className='trailer-img'>
-                                    
+                            <img className='trailer-img1' src="https://i.ibb.co/vmDFqY6/MV5-BMTIz-MDc4-Mz-A2-Ml5-BMl5-Ban-Bn-Xk-Ft-ZTcw-ODU0-Mz-A3-MQ-V1.jpg" alt="MV5-BMTIz-MDc4-Mz-A2-Ml5-BMl5-Ban-Bn-Xk-Ft-ZTcw-ODU0-Mz-A3-MQ-V1" border="0"/>
                                     </div>
                                     <div className='trailer-title'>
-                                        <BiPlayCircle className='play-circle' />
-                                        <span className='p-tag'>"Movie Name"</span>
+                                    {/* <ModalVideo className='modal-video' channel='youtube' autoplay isOpen={isOpen} videoId="EXeTwQWrcwY" onClose={() => setOpen(false)} /> */}
+
+                                    <button className="play-button1" onClick={()=> setOpen(true)}><BiPlayCircle className='play-circle' /></button>
+                                        <span className='p-tag'>"The Dark Knight"</span>
                                         <span className='p-tag1'>Watch the New Trailer</span>
                                     </div>
 
                             </div>
                             <div className='trailer3'>
                             <div className='trailer-img'>
-                                    
+                            <img className='trailer-img1' src="https://i.ibb.co/QYnGdVY/MV5-BZjdk-OTU3-MDkt-N2-Ix-OS00-OGEy-LWFm-Mjkt-Y2-Fi-Mm-Zk-NWIy-ODZi-Xk-Ey-Xk-Fqc-Gde-QXVy-MTMx-ODk2.jpg" alt="MV5-BZjdk-OTU3-MDkt-N2-Ix-OS00-OGEy-LWFm-Mjkt-Y2-Fi-Mm-Zk-NWIy-ODZi-Xk-Ey-Xk-Fqc-Gde-QXVy-MTMx-ODk2-" border="0"/>    
                                     </div>
                                     <div className='trailer-title'>
-                                        <BiPlayCircle className='play-circle' />
-                                        <span className='p-tag'>"Movie Name"</span>
+                                    {/* <ModalVideo className='modal-video' channel='youtube' autoplay isOpen={isOpen} videoId="2LqzF5WauAw" onClose={() => setOpen(false)} /> */}
+
+                                    <button className="play-button1" onClick={()=> setOpen(true)}><BiPlayCircle className='play-circle' /></button>
+                                        <span className='p-tag'>"Intersteller"</span>
                                         <span className='p-tag1'>Watch the New Trailer</span>
                                     </div>
 
                             </div>
-                            <a className='browse' href='#' >Browse Trailers  ➤</a>
+                            <a className='browse' href='www' >Browse Trailers  ➤</a>
                     </div>
             </div>
             
@@ -74,29 +87,7 @@ function Home() {
             
             
             <div className='featured-div'>
-                
-                <div className='featured'>
-                    <h3 className='title1'>Featured Today</h3>
-                        <div className='lists-div'>
-                            
-                            <div className='list'>
-                            <img className='featured-img' src="https://i.ibb.co/3p653Rh/maxresdefault.jpg" alt="maxresdefault" border="0"/>
-                            </div>
-                            
-                            <div className='list'>
-                            <img  className='featured-img' src="https://i.ibb.co/dj0GM9H/Screen-Shot-2018-11-30-at-12-58-42-PM.webp" alt="Screen-Shot-2018-11-30-at-12-58-42-PM" border="0"/>
-                            </div>
-                        </div>
-                    
-                    
-                        <div className='ads-title'>
-                            <p className='p-tag'>Leonardo DiCaprio roles through the years</p>
-                            <p className='p-tag'>Natalie Portman through the years</p>
-                        </div>
-                </div>
-                    
-                    <div className='ads'>
-                    </div>
+             <Featured />
             </div>
 
                     <div className='what-watch'>
@@ -104,11 +95,12 @@ function Home() {
                         <h6 className='get-more'>Get more recommendations ➤</h6>
                     </div>
 
+                    
+
+                    <div className='watchlist-div'>
                     <div className='from-watchlist'>
                         <h1 className='title2'><FaGripLinesVertical className='react-icon' /> From your WatchList ➤</h1>
                     </div>
-
-                    <div className='watchlist-div'>
                         <div className='watch-list'>
                             <BiBookmarkPlus className='watchlist-icon' />
                             <p className='p-tag'><strong>Sign in to access your Watchlist</strong></p>
@@ -117,14 +109,10 @@ function Home() {
                         </div>
                     </div>
                         
-                    <div className='fan-favorites'>
-                        <h1 className='title2'><FaGripLinesVertical className='react-icon' />Fan Favorites ➤</h1>
-                        <p className='p-tag1'>This week's top TV and movies</p>
-                    </div>
-
-                    <div className='film-list'>
+                    
+                    
                         <FanFavorites />
-                    </div>
+                    
                         
                     
 
@@ -145,34 +133,49 @@ function Home() {
                         </div>
                         <div className='interviews'>
                         <div className='main-interviews1'>
-                            
+                            <img className='editors-img' src="https://i.ibb.co/cQf3NGH/maxresdefault4.jpg" alt="maxresdefault4" border="0"/>   
                         </div>
                         
                         <div className='main-interviews2'>
-                            
+                        <img className='editors-img' src="https://i.ibb.co/Jz7fvxS/maxresdefault1.jpg" alt="maxresdefault1" border="0/"/>
                         </div>
                         <div className='main-interviews3'>
-                            
+                        <img className='editors-img' src="https://i.ibb.co/mvMtvqk/Anne-Hathaway-Matthew-Mc-Conaughey-Jessica-Chastain-Intersteller-interview.jpg" alt="Anne-Hathaway-Matthew-Mc-Conaughey-Jessica-Chastain-Intersteller-interview" border="0"/>  
                         </div>
                         </div>
+                        <div className='total-ads'>
                         <div className='para-tags'>
-                        <p className='p-tag'>this is a test</p>
-                        <p className='p-tag'>this is a test</p>
-                        <p className='p-tag'>this is a test</p>
+                        <ModalVideo className='modal-video' channel='youtube' autoplay isOpen={isOpen} videoId="m7zrrj-nD8s" onClose={() => setOpen(false)} />
+
+            <button className="play-button1" onClick={()=> setOpen(true)}><BiPlayCircle className='play-circle4' /></button>
+                <p className='p-tag'>The cast of Once Upon a Time... In Hollywood</p>
+                </div>
+                <div className='ads-title3'>
+                {/* <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="qVN2Vd0XxzE" onClose={() => setOpen(false)} /> */}
+
+                        <button className="play-button1" onClick={()=> setOpen(true)}><BiPlayCircle className='play-circle4' /></button>
+                <p className='p-tag'>An interview with the cast of Justice League</p>
+                        </div>
+                        <div className='ads-title2'>
+                {/* <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="1b1ibbFGPSE" onClose={() => setOpen(false)} /> */}
+
+                        <button className="play-button1" onClick={()=> setOpen(true)}><BiPlayCircle className='play-circle4' /></button>
+                <p className='p-tag'>The stars of Interstellar speak</p>
+                        </div>
                         </div>
                     </div>
 
                     <div className='streaming'>
                        <h1 className='title1'>Explore what is streaming</h1>
                        <div className='streaming-tags'>
-                           <a href="#" className='streaming-li1'>IMDb TV</a>
-                           <a href="#" className='streaming-li1'>PRIME VIDEO</a>
-                           <a href="#" className='streaming-li1'>NETFLIX</a>
-                           <a href="#" className='streaming-li1'>APPLE TV+</a>
-                           <a href="#" className='streaming-li1'>HULU</a>
-                           <a href="#" className='streaming-li1'>HBO</a>
-                           <a href="#" className='streaming-li1'>STARZ</a>
-                           <a href="#" className='streaming-li1'>SHOWTIME</a>
+                           <a href="ww" className='streaming-li1'>IMDb TV</a>
+                           <a href="ww" className='streaming-li1'>PRIME VIDEO</a>
+                           <a href="ww" className='streaming-li1'>NETFLIX</a>
+                           <a href="ww" className='streaming-li1'>APPLE TV+</a>
+                           <a href="ww" className='streaming-li1'>HULU</a>
+                           <a href="ww" className='streaming-li1'>HBO</a>
+                           <a href="ww" className='streaming-li1'>STARZ</a>
+                           <a href="#ww" className='streaming-li1'>SHOWTIME</a>
                         </div>
                         <div className='film-list'>
 
@@ -306,8 +309,12 @@ function Home() {
 
                     
                     
+                    <div className='trailers-div'>
+                        <Trailers /> 
+                    </div>
+                    
 
-                    <Trailers />
+
                     <div className='exclusive-videos'>
                         <h1 className='title1'>More to Explore</h1>
                         <div className='imdb-originals'>
@@ -326,10 +333,20 @@ function Home() {
                             <img className='editors-img' src="https://i.ibb.co/VSQgxxY/MV5-BNTUy-ZGMy-ZTIt-YWRj-Yy00-Zj-Ez-LWE2-YWUt-MTAx-MGQ1-NTNj-MTRj-Xk-Ey-Xk-Fqc-Gde-QXVy-MTEy-Mj-M2-N.jpg" alt="MV5-BNTUy-ZGMy-ZTIt-YWRj-Yy00-Zj-Ez-LWE2-YWUt-MTAx-MGQ1-NTNj-MTRj-Xk-Ey-Xk-Fqc-Gde-QXVy-MTEy-Mj-M2-N" border="0"/>
                         </div>
                         </div>
+                        <div className='total-ads'>
                         <div className='para-tags'>
-                        <p className='p-tag'>The best TV and Movies to watch in April</p>
-                        <p className='p-tag'>The best TV shows currently streaming</p>
+                            <div className='ads-title'>
+                                <p className='p-tag'>The best TV and Movies to watch in April</p>
+
+                            </div>
+                            <div className='ads-title4'>
+
+                                <p className='p-tag'>The best TV shows currently streaming</p>
+                            </div>
+                            <div className='ads-title5'>
                         <p className='p-tag'>Everything new on Disney+</p>
+                        </div>
+                        </div>
                         </div>
                     </div>
                     <div className='celeb-title'>
@@ -338,70 +355,63 @@ function Home() {
                             
                     <div className='celebrities-div'>
                         <div className='img-holder'>
-                        <div className='celeb-img'>
-                            <img className='celeb-img1' src="https://i.ibb.co/C9KJb3q/435-v9-bc.jpg" alt="435-v9-bc" border="0"/>
+                        
+                        <div className='celeb-img3'>
+                            <img className='celeb-img2'src="https://i.ibb.co/BZ1PZ3L/leonardo-dicaprio.jpg" alt="leonardo-dicaprio" border="0"/>
+                            <p className='p-tag'>Leonardo DiCaprio</p>
                         </div>
+                        
                             
                         <div className='celeb-img'>
-                        <img className='celeb-img1' src="https://i.ibb.co/G9bwwJ2/MV5-BMTQ3-ODE3-Mjg1-NV5-BMl5-Ban-Bn-Xk-Ft-ZTcw-Nz-A4-ODcx-NA-V1.jpg" alt="MV5-BMTQ3-ODE3-Mjg1-NV5-BMl5-Ban-Bn-Xk-Ft-ZTcw-Nz-A4-ODcx-NA-V1" border="0"/>
+                        <img className='celeb-img1' src="https://i.ibb.co/0YSj2dV/3393.jpg" alt="3393" border="0"/>
+                        <p className='p-tag'>Natalie Portman</p>
                         </div>
-                        <div className='celeb-img'>
-                            <img className='celeb-img1' src="https://i.ibb.co/vvCd6kb/MV5-BMTgx-NDcw-Mz-U2-Nl5-BMl5-Ban-Bn-Xk-Ft-ZTcw-NDc4-Nzkz-OQ-V1.jpg" alt="MV5-BMTgx-NDcw-Mz-U2-Nl5-BMl5-Ban-Bn-Xk-Ft-ZTcw-NDc4-Nzkz-OQ-V1" border="0"/>
+                        <div className='celeb-img3'>
+                            <img className='celeb-img2' src="https://i.ibb.co/vvCd6kb/MV5-BMTgx-NDcw-Mz-U2-Nl5-BMl5-Ban-Bn-Xk-Ft-ZTcw-NDc4-Nzkz-OQ-V1.jpg" alt="MV5-BMTgx-NDcw-Mz-U2-Nl5-BMl5-Ban-Bn-Xk-Ft-ZTcw-NDc4-Nzkz-OQ-V1" border="0"/>
+                            <p className='p-tag'>Margot Robbie</p>
                         </div>
                         <div className='celeb-img'>
                             <img className='celeb-img1' src="https://i.ibb.co/RvydQyC/2002.jpg" alt="2002" border="0"/>
+                            <p className='p-tag'>Matthew Mcconaughey</p>
                         </div>
                         <div className='celeb-img'>
+                        <img className='celeb-img1' src="https://i.ibb.co/bWskVnw/brad-pitt-attends-the-premiere-of-20th-century-foxs-ad-news-photo-1580754081.jpg" alt="the-premiere-of-2" border="0"/>
+                        <p className='p-tag'>Brad Pitt</p>
+                        </div>
+                        <div className='celeb-img'>
+                        <img className='celeb-img2'src="https://i.ibb.co/LdgjF7b/5aadf505-be8d-4023-bc1d-045a237b96b3.jpg" alt="5aadf505-be8d-4023-bc1d-045a237b96b3" border="0"/>
+                        <p className='p-tag'>Mila Kunis</p>
+                        </div>
+                        {/* <div className='celeb-img'>
                         <img className='celeb-img1' src="https://i.ibb.co/bWskVnw/brad-pitt-attends-the-premiere-of-20th-century-foxs-ad-news-photo-1580754081.jpg" alt="brad-pitt-attends-the-premiere-of-20th-century-foxs-ad-news-photo-1580754081" border="0"/>
+                        <p className='p-tag'>Brad Pitt</p>
                         </div>
                         <div className='celeb-img'>
-                        <img className='celeb-img1'src="https://i.ibb.co/94JnTXP/Mila-Kunis-1.jpg" alt="Mila-Kunis-1" border="0"/>
-                        </div>
+                        <img className='celeb-img2'src="https://i.ibb.co/LdgjF7b/5aadf505-be8d-4023-bc1d-045a237b96b3.jpg" alt="5aadf505-be8d-4023-bc1d-045a237b96b3" border="0"/>
+                        <p className='p-tag'>Mila Kunis</p>
+                        </div> */}
+                    
+                        
                         </div>
 
                     <div className='celeb-name'>
-                        <p className='p-tag'>Leonardo DiCaprio</p>
-                        <p className='p-tag'>Natalie Portman</p>
-                        <p className='p-tag'>Margot Robbie</p>
-                        <p className='p-tag'>Matthew Mcconaughey</p>
-                        <p className='p-tag'>Brad Pitt</p>
-                        <p className='p-tag'>Mila Kunis</p>
+                        
+                        
+                        
+                        
+                        
+                        
                     </div>
 
                     </div>
                     </div>
 
-                    <div className='top'>
-                    <h3 className='title2'><FaGripLinesVertical className='react-icon' />Top News ➤</h3>
-                    </div>
-                    <div className='top-news'>
-                        <div className='news-article'>
-                            <div className='article-img'>
-                                <img className='article-img1' src="https://i.ibb.co/2tcMGsg/hbz-leonardio-dicaprio-camila-morrone-lead-1581301807.jpg" alt="hbz-leonardio-dicaprio-camila-morrone-lead-1581301807" border="0"/>
-                            </div>
-                            <div className='article-info'>
-                                <h5 className='p-tag'>Leonardo DiCaprio and Camila Morrone soak up the sun in Malibu</h5>
-                                <h6 className='p-tag'>March 29, 2021</h6>
-                            </div>
-                        </div>
-                        <div className='news-article'>
-                            <div className='article-img'>
-                            <img className='article-img1' src="https://i.ibb.co/n6zhcSP/c0-Cqa-4t-400x400.jpg" alt="c0-Cqa-4t-400x400" border="0"/>
-                            </div>
-                            <div className='article-info'>
-                                <h5 className='p-tag'>Margot Robbie Pregnancy Rumors Debunked</h5>
-                                <h6 className='p-tag'>April 11, 2021</h6>
-                            </div>
-                        </div>
-                        <div className='news-article'>
-                            <div className='article-img'>
-                            <img className='article-img1' src="https://i.ibb.co/85bf4pf/Moby-and-Natalie-Portman-696x442.jpg" alt="Moby-and-Natalie-Portman-696x442" border="0"/>
-                            </div>
-                            <div className='article-info'>
-                                <h5 className='p-tag'>Moby discusses Natalie Portman dating controversy, says it became hard to ignore</h5>
-                                <h6 className='p-tag'>April 12, 2021</h6>
-                            </div>
-                        </div>
+                    
+                    <div>
+                      
+                        <News />
+                        
+                       
                     
                         
                     </div>

@@ -1,5 +1,5 @@
 import './App.css';
-import Header from './Header'
+// import Header from './Header'
 import OpenMenu from './OpenMenu';
 import {Switch, Route} from 'react-router'
 import NavBar from './NavBar'

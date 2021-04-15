@@ -16,7 +16,7 @@
 }
 
 /* the div on the app that allows movement */
-.App-header {
+/* .App-header {
   display:flex;
   align-items: center;
   align-content: space-around;
@@ -25,11 +25,11 @@
   height: 3.6rem;
   /* background-color: rgb(20, 20, 20); */
   /* border: 1px solid orange; */
-  max-width: 100%;
+  /* max-width: 100%; */
   /* display:flex; */
-  font-family: 'Amazon Ember';
+  /* font-family: 'Amazon Ember'; */
   /* border: 1px solid orange; */
-}
+/* } */
 
 .footer-div {
   display: flex;

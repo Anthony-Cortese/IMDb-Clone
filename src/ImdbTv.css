@@ -1,8 +1,10 @@
 .imdbtv-div {
-    /* width: 1008px; */
+    width: 100%;
     /* height: 100%; */
     /* border: 1px solid orange; */
     /* background-color: gray; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
 }
 .main-ads {
     display: flex;
@@ -14,5 +16,31 @@
     width: 800px;
     height: 200px;
     
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+.row-title {
+    color: whitesmoke;
+    font-size: 14px;
+    margin-left: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+
+}
+.row-title1 {
+    color: whitesmoke;
+    font-size: 18px;
+    /* margin-left: 2rem; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    margin: 3rem;
+
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
 }

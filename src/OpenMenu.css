@@ -7,17 +7,14 @@
     font-weight: 50;
   }
 
-.main-menu {
-    /* background-color: black; */
-}
 
 .main-menu {
     /* border: 1px solid black; */
     color: whitesmoke;
     text-decoration: none;
-    /* background-color: black; */
+    /* background-color: black;  */
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: center;
     flex-wrap: nowrap;
     height: 700px;
@@ -32,8 +29,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-content: flex-start;
-    max-width: 50%;
-    margin-left: 25%;
+    max-width: 80%;
+    margin-left: 10%;
     /* width: 48px; */
     /* height: 48px; */
   
@@ -58,9 +55,7 @@
     /* margin-right: 30rem; */
     object-fit: contain;
   }
-  .x img {
-    /* width: 5rem; */
-  }
+  
   .movie-celebs {
     /* border: 1px solid pink; */
     display: flex;
@@ -70,9 +65,9 @@
     align-items: center;
     width: 300px;
     max-height: 600px;
-    margin: 2rem;
+    /* margin: 2rem; */
     padding: 2rem;
-    margin-left: 6rem;
+    /* margin-left: 6rem; */
   }
   .tv-watch {
     /* border: 1px solid pink; */
@@ -80,9 +75,9 @@
     flex-direction: column;
     /* justify-content: space-between; */
     align-items: center;
-    width: 300px;
+    width: 250px;
     max-height: 600px;
-    margin: 2rem;
+    /* margin: 2rem; */
     padding: 2rem;
   }
   .awards-community {
@@ -93,7 +88,7 @@
     align-items: center;
     width: 300px;
     max-height: 600px;
-    margin: 2rem;
+    /* margin: 2rem; */
     padding: 2rem;
   }
   .movie-menu {
@@ -193,4 +188,6 @@
   }
   /* 1000px turns into a sidebar */
   
-  
+  @media (max-width: 1030px) {
+    
+  }
