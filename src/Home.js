@@ -20,6 +20,7 @@ import News from './News'
 import Sean from './trailers/Sean'
 import Zod from './trailers/Zod'
 import Almost from './trailers/Almost'
+import Larry from './trailers/Larry'
 
 
 
@@ -115,15 +116,7 @@ function Home() {
                 </div>   
                         </div>
                         
-                        <div className='main-interviews2'>
-                        <img className='editors-img' src="https://i.ibb.co/Jz7fvxS/maxresdefault1.jpg" alt="maxresdefault1" border="0/"/>
-                        <div className='ads-title3'>
-                {/* <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="qVN2Vd0XxzE" onClose={() => setOpen(false)} /> */}
-
-                        <button className="play-button1" onClick={()=> setOpen(true)}><BiPlayCircle className='play-circle4' /></button>
-                <p className='p-tag'>An interview with the cast of Justice League</p>
-                        </div>
-                        </div>
+                        <Larry />
                         <div className='main-interviews3'>
                         <img className='editors-img' src="https://i.ibb.co/mvMtvqk/Anne-Hathaway-Matthew-Mc-Conaughey-Jessica-Chastain-Intersteller-interview.jpg" alt="Anne-Hathaway-Matthew-Mc-Conaughey-Jessica-Chastain-Intersteller-interview" border="0"/>
                         <div className='ads-title2'>

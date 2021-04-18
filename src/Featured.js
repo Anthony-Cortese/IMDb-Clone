@@ -19,7 +19,7 @@ function Featured() {
                 
                 <img className='featured-img' src="https://i.ibb.co/3p653Rh/maxresdefault.jpg" alt="maxresdefault" border="0"/>
                 <div className='ads-title'>
-            {/* <ModalVideo className='modal-video' channel='youtube' autoplay isOpen={isOpen} videoId="pJO0XRfSYRU" onClose={() => setOpen(false)} /> */}
+            <ModalVideo className='modal-video' channel='youtube' autoplay isOpen={isOpen} videoId="4aNj5VDbBrA" onClose={() => setOpen(false)} />
 
             <button className="play-button1" onClick={()=> setOpen(true)}><BiPlayCircle className='play-circle3' /></button>
                 <p className='p-tag'>Leonardo DiCaprio roles through the years</p>

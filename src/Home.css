@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 4px solid white;
+    /* border: 4px solid white; */
     max-width: 100%;
 }
 .main-div {
@@ -1179,8 +1179,10 @@
 
     @media (max-width: 500px) {
         .big-div {
-            width: 600px
+            width: 110%;
         }
+
+        
     }
 
 }
