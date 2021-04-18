@@ -32,7 +32,8 @@ function Home() {
 
             
             <div className='ads-div'>
-            <img className='ad-img' src="https://i.ibb.co/z6LmpQx/imdb-tv.jpg" alt="imdb-tv" border="0"/>
+            <img className='ad-img' src="https://i.ibb.co/Dp6rjKr/71pubpl-JHn-L.jpg"
+            alt="imdb-tv" border="0"/>
                 </div>
            </div>
             <div className='main-div'>
@@ -144,14 +145,14 @@ function Home() {
                     <div className='streaming'>
                        <h1 className='title1'>Explore what is streaming</h1>
                        <div className='streaming-tags'>
-                           <a href="ww" className='streaming-li1'>IMDb TV</a>
-                           <a href="ww" className='streaming-li1'>PRIME VIDEO</a>
-                           <a href="ww" className='streaming-li1'>NETFLIX</a>
-                           <a href="ww" className='streaming-li1'>APPLE TV+</a>
-                           <a href="ww" className='streaming-li1'>HULU</a>
-                           <a href="ww" className='streaming-li1'>HBO</a>
-                           <a href="ww" className='streaming-li1'>STARZ</a>
-                           <a href="#ww" className='streaming-li1'>SHOWTIME</a>
+                           <nav className='streaming-li1'>IMDb TV</nav>
+                           <nav className='streaming-li1'>PRIME VIDEO</nav>
+                           <nav className='streaming-li1'>NETFLIX</nav>
+                           <nav className='streaming-li1'>APPLE TV+</nav>
+                           <nav className='streaming-li1'>HULU</nav>
+                           <nav className='streaming-li1'>HBO</nav>
+                           <nav className='streaming-li1'>STARZ</nav>
+                           <nav className='streaming-li1'>SHOWTIME</nav>
                         </div>
                         <div className='film-list'>
 
@@ -268,6 +269,9 @@ function Home() {
                             </div>
                         </div>
                         </div>
+                        
+                        
+                        
                     </div>
  
                     </div>

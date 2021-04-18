@@ -324,6 +324,12 @@ select:focus{
     
 }
 
+@media (max-width: 1204px) {
+    .main-navbar {
+        width: 110%
+    }
+}
+
 @media (max-width: 1030px) {
    .all-button {
     position: relative;

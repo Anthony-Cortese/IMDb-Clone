@@ -8,7 +8,7 @@ function ImdbTv() {
     return (
         <div className='imdbtv-div'>
             <div className='main-ads'>
-                <img className='main-ads-img' src="https://i.ibb.co/Dp6rjKr/71pubpl-JHn-L.jpg" alt="71pubpl-JHn-L" border="0"/>
+                <img className='main-ads-img' src="https://i.ibb.co/z6LmpQx/imdb-tv.jpg"  alt="71pubpl-JHn-L" border="0"/>
             </div>
                 <h3 className='row-title'>TRENDING NOW</h3>
                     <Row className='trending'fetchUrl={requests.fetchTrending} isLargeRow={true}/>
