@@ -4,7 +4,7 @@
     /* border: 1px solid white; */
 }
 
-.rowPosters {
+.row_posters {
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
@@ -14,11 +14,11 @@
 
 }
 
-.rowPosters::-webkit-scrollbar {
+.row_posters::-webkit-scrollbar {
     display: none;
 }
 
-.rowPoster {
+.row_poster {
     object-fit: contain;
     width: 180px;
     height: 270px;
@@ -29,7 +29,7 @@
     
 }
 
-.rowPoster:hover {
+.row_poster:hover {
     transform: scale(1.08);
 }
 
@@ -39,4 +39,8 @@
 
 .rowPosterLarge:hover {
     transform: scale(1.30);
+}
+
+.play-circle7 {
+    width: 30rem;
 }

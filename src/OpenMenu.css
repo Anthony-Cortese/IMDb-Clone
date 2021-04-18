@@ -189,5 +189,7 @@
   /* 1000px turns into a sidebar */
   
   @media (max-width: 1030px) {
-    
+      .main-menu {
+        display: none
+      }
   }

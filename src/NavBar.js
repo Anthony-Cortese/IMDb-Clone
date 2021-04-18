@@ -6,12 +6,17 @@ import { TiThMenu } from 'react-icons/ti'
 import { BiBookmarkPlus } from 'react-icons/bi'
 import OpenMenu from './OpenMenu'
 import Dropdown from './Dropdown'
+import Sidebar from './Sidebar';
 
 function NavBar() {
     const url = ''
   const [click, setClick] = useState(false)
   const [open, setOpen] = useState(false)
   const [isShown, setIsShown] = useState(false)
+//   const [sidebar, setSidebar] = useState(false);
+
+//   /const showSidebar = () => setSidebar(!sidebar);
+
 
   const handleClick = () => setClick(!click);
     
@@ -19,8 +24,17 @@ function NavBar() {
 
         <header className='main-navbar'>
             <div className='imdb-logo'>
+            <div className='media-menu'>
+            
+            {/* <button id='menu-div' onClick={() => setSidebar(sidebar => !sidebar)} className='media-menu-button'><TiThMenu className='nav-dots' />
+            </button> */}
+            {/* {sidebar && <Sidebar />} */}
+    
+        
+    
+            </div>
                 
-              <Link to='/'><img className='imdb-image' src="https://i.ibb.co/C8v8qd6/pngwing-com-3.png" alt="imdb" border="0"/>
+              <Link to='/'><img className='imdb-image' src="https://i.ibb.co/LPpKx8X/kisspng-computer-icons-television-logo-scalable-vector-gra-imdb-icon-free-of-cinema-icons-5ba31fc4e3.png" alt="kisspng-computer-icons-television-logo-scalable-vector-gra-imdb-icon-free-of-cinema-icons-5ba31fc4e3" border="0"/>
                 </Link>
             </div>
             <div className='menu'>
@@ -75,7 +89,7 @@ function NavBar() {
                     
             </div>
             {/* <div className='pro'> */}
-                <Link>
+                <Link to='/ImdbPro'>
                     <button className='imdb-pro'><span className='font2'>IMDb</span>Pro</button>
                 </Link>   
             {/* </div> */}
@@ -86,9 +100,9 @@ function NavBar() {
             <Link to='/Watchlist'><button onClick={handleClick} className='watchlist'><BiBookmarkPlus className='checkmark' /> Watchlist</button></Link>
             {/* </div> */}
 
-            <div className='sign'>
+            {/* <div className='sign'> */}
             <Link to='/SignIn'><button onClick={handleClick} className='sign-in'>Sign In</button></Link>
-            </div>
+            {/* </div> */}
         </header>
             
     )

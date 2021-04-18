@@ -16,23 +16,37 @@
     /* border: 1px solid orange; */
     width: 100%
 }
+
+.media-menu {
+    width: 4rem;
+    /* position: absolute; */
+    top: .5rem;
+    /* border: 8px solid orange; */
+    /* display: hidden; */
+}
+
+
+
+
 .imdb-logo { 
     /* the div that contains the logo */
     width: 5rem;
     margin: .3rem;
     margin-right: 2.5rem;
     margin-bottom: 2.5rem;
-    /* border: 1px solid orange; */
+    /* position: relative;
+    bottom: 1.5rem;
+    left: .5rem; */
     
 }
 
 .imdb-image {
     /* img sizing */
-    width: 5rem;
+    width: 4.2rem;
     position: relative;
     left: 8rem;
     object-fit: contain;
-    margin-right: 1rem;
+    margin-right: 2rem;
 
     /* border: 1px solid orange; */
 }
@@ -111,7 +125,8 @@ select:focus{
     top: 4px;
     object-fit: contain;
     font-size: 18px;
-    color: gray;
+    color:
+    rgb(20, 20, 20);
     /* border: 1px solid red */
 
 }
@@ -186,6 +201,7 @@ select:focus{
 .menu-button:hover {
     background-color: #505050;
 }
+
 
 .imdb-tv {
     width: 5rem;
@@ -298,7 +314,8 @@ select:focus{
     }
 
     .search-icon {
-        display: none;
+       position: absolute;
+        left: 4rem
     }
 
 
@@ -310,16 +327,40 @@ select:focus{
 @media (max-width: 1030px) {
    .all-button {
     position: relative;
-    right: 3rem;
+    right: 2.5rem;
    }
+
+   /* .media-menu-button {
+    width: 5rem;
+    height: 2rem;
+    position: relative;
+    left: 5rem;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: whitesmoke;
+    object-fit: contain;
+    transition-duration: 0.4s;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Amazon Ember';
+    position: relative;
+    bottom: 2px;        
+    
+} */
+
 
    .imdb-image {
     position: relative;
-    left: 4rem;
+    left: 5rem;
+    /* top: 2.4rem; */
    }
    .input {
     position: relative;
-    right: 3rem;
+    right: 2.5rem;
    }
     
     .imdb-tv {
@@ -336,17 +377,118 @@ select:focus{
 
     .line {
         position: relative;
-        right: 4rem;
+        right: 3.5rem;
     }
 
     .menu-button {
-        position: absolute;
-        /* right: 8rem; */
+       display: none;
     }
 
     .sign-in {
         position: relative;
-        right: 8rem;
+        right: 7.5rem;
+    }
+    .media-menu {
+        width: 4rem;
+        position: absolute;
+        top: 4.5rem;
+        left: 60px;
+        /* border: 8px solid orange; */
+        /* display: hidden; */
     }
 
+    .media-menu-button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: whitesmoke;
+    object-fit: contain;
+    transition-duration: 0.4s;
+    border-radius: 50%;
+    font-family: 'Amazon Ember';
+    height: 38px;
+    width: 38px;
+    /* font-size: 22px;   */
+    }
+
+    .media-menu-button:hover {
+        background-color: #505050;
+    }
+
+    .nav-dots {
+        font-size: 20px;
+    }
+
+    .sign {
+        /* display: none; */
+    }
+
+
+
+}
+
+@media (max-width: 850px) {
+    .main-navbar {
+        width: 100%
+    }
+
+    .input {
+        width: 18rem
+    }
+}
+
+@media (max-width: 750px) {
+    .input {
+        width: 16rem
+    }
+} 
+
+@media (max-width: 700px) {
+    .input {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .search-icon {
+        color: whitesmoke;
+        font-size: 36px;
+        margin-top: .5rem;
+        /* position: relative; */
+        /* left: 4rem; */
+    }
+
+    .all-button {
+        display: none;
+    }
+
+    .main-navbar {
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .imdb-image {
+        position: relative;
+        right: 2rem;
+        /* margin-right: 18rem; */
+    }
+} 
+
+
+@media (max-width: 550px) {
+    .main-navbar {
+        width: 550px
+    }
+}
+
+@media (max-width: 500px) {
+    .main-navbar {
+        width: 500px;
+    }
 }

@@ -10,7 +10,8 @@ import ModalVideo from 'react-modal-video'
 // import 'react-modal-video/scss/modal-video.scss'
 import './Trailers.scss'
 // import 'node_modules/react-modal-video/scss/modal-video.scss';
-
+import Zodiac from './trailers/Zodiac'
+import BlackSwan from './trailers/BlackSwan';
 
 // const movies = [
 //      {url: "https://i.ibb.co/7bXjrGF/109300-inception-617-409-compressed.jpg"},
@@ -27,9 +28,9 @@ function FrontPage() {
 
     return (
     <div className='second-div'>
-    <div className='background-img'>
-    
-                    <div className='second-info'>
+         <div className='second-div2'>
+    <div className='background-img3'>
+    <div className='second-info'>
                         <div className='second-img'>
                             <GoBookmark className='watchlist-icon1' />
                             <img className='inception-img' src="https://i.ibb.co/JxFRNWr/7106u-LYY2-LL-AC-SL1111.jpg" alt="inception" border="0"/>
@@ -46,6 +47,18 @@ function FrontPage() {
                     </div>
                     </div>
                 </div>
+    
+                  <Zodiac />
+                <BlackSwan />
+                
+
+                
+                
+                
+                
+                </div>
+            
+            
 
     )     
 }

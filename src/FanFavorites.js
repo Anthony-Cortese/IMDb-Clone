@@ -1,5 +1,5 @@
 import React from 'react'
-import {Carousel} from "react-responsive-carousel";
+// import {Carousel} from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './App.css'
 import './FanFavorites.css'
@@ -7,15 +7,15 @@ import {GoBookmark} from 'react-icons/go'
 import {FaGripLinesVertical} from 'react-icons/fa'
 function FanFavorites() {
     
-    const data = [
-        {poster: "https://i.ibb.co/QbRvjgN/MV5-BYj-I3-NDg0-ZTEt-MDEw-YS00-YWMy-LThj-Yjkt-MTNl-M2-Nm-Yjc1-OGRi-Xk-Ey-Xk-Fqc-Gde-QXVy-MTEy-Mj-M2.jpg",
-        rating: 8.2,
-        name: "Zach Snyder's Justice League"},
+    // const data = [
+    //     {poster: "https://i.ibb.co/QbRvjgN/MV5-BYj-I3-NDg0-ZTEt-MDEw-YS00-YWMy-LThj-Yjkt-MTNl-M2-Nm-Yjc1-OGRi-Xk-Ey-Xk-Fqc-Gde-QXVy-MTEy-Mj-M2.jpg",
+    //     rating: 8.2,
+    //     name: "Zach Snyder's Justice League"},
 
-        {poster: "https://i.ibb.co/PN9PxJy/u-g-F9-JL6-E0.jpg",
-        rating: 7.6,
-        name: 'Once Upon a Time... In Hollywood'}
-    ] 
+    //     {poster: "https://i.ibb.co/PN9PxJy/u-g-F9-JL6-E0.jpg",
+    //     rating: 7.6,
+    //     name: 'Once Upon a Time... In Hollywood'}
+    // ] 
     
     
     return ( 

@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #060b26;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 280px;
+    height: 649px;
+    position: absolute;
+    /* top: 10px; */
+    /* bottom: 10px; */
+    left: -110%;
+    transition: 850ms;
+    margin-top: 1rem;
+    background-color: rgb(20, 20, 20);
+    /* align-items: center; */
+  }
+
+  @media (max-width: 1030px) {
+      .navbar {
+          left: -175%
+      }
+  }
+
+  
+
+
+  
+
+  
