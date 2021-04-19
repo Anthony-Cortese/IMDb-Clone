@@ -1,40 +1,38 @@
 .imdbtv-div {
-    width: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: lighter;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
 }
 .main-ads {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .main-ads-img {
-    width: 800px;
-    height: 200px;
+  width: 800px;
+  height: 200px;
 }
 
 .row-title {
-    color: whitesmoke;
-    font-size: 14px;
-    margin-left: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: lighter;
-
+  color: whitesmoke;
+  font-size: 14px;
+  margin-left: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
 }
 .row-title1 {
-    color: whitesmoke;
-    font-size: 18px;
-    /* margin-left: 2rem; */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: lighter;
-    margin: 3rem;
-
+  color: whitesmoke;
+  font-size: 18px;
+  /* margin-left: 2rem; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  margin: 3rem;
 }
 
 .questions {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
 }

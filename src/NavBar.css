@@ -1,118 +1,110 @@
 @import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
 
 @font-face {
-    font-family: "Amazon Ember"; 
-    src: url("//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember");
-    font-style: normal;
-    font-weight: 50;
-  }
+  font-family: "Amazon Ember";
+  src: url("//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember");
+  font-style: normal;
+  font-weight: 50;
+}
 .main-navbar {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Amazon Ember';
-    height: 3.6rem;
-    background-color: rgb(20, 20, 20);
-    /* border: 1px solid orange; */
-    width: 100%
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Amazon Ember";
+  height: 3.6rem;
+  background-color: rgb(20, 20, 20);
+  /* border: 1px solid orange; */
+  width: 100%;
 }
 
 .media-menu {
-    width: 4rem;
-    /* position: absolute; */
-    top: .5rem;
-    /* border: 8px solid orange; */
-    /* display: hidden; */
+  width: 4rem;
+  /* position: absolute; */
+  top: 0.5rem;
+  /* border: 8px solid orange; */
+  /* display: hidden; */
 }
 
-
-
-
-.imdb-logo { 
-    /* the div that contains the logo */
-    width: 5rem;
-    margin: .3rem;
-    margin-right: 2.5rem;
-    margin-bottom: 2.5rem;
-    /* position: relative;
+.imdb-logo {
+  /* the div that contains the logo */
+  width: 5rem;
+  margin: 0.3rem;
+  margin-right: 2.5rem;
+  margin-bottom: 2.5rem;
+  /* position: relative;
     bottom: 1.5rem;
     left: .5rem; */
-    
 }
 
 .imdb-image {
-    /* img sizing */
-    width: 4.2rem;
-    position: relative;
-    left: 8rem;
-    object-fit: contain;
-    margin-right: 2rem;
+  /* img sizing */
+  width: 4.2rem;
+  position: relative;
+  left: 8rem;
+  object-fit: contain;
+  margin-right: 2rem;
 
-    /* border: 1px solid orange; */
+  /* border: 1px solid orange; */
 }
 
-.imdb-image:focus, select:focus {
-    border: 2px dashed black
+.imdb-image:focus,
+select:focus {
+  border: 2px dashed black;
 }
 .input {
-    width: 33rem;
-    height: 1.6rem;
-    border-radius: 0px 8px 8px 0px;
-    font-family: 'Amazon Ember';
-    margin-left: -3px;
-    /* position: absolute; */
-    
+  width: 33rem;
+  height: 1.6rem;
+  border-radius: 0px 8px 8px 0px;
+  font-family: "Amazon Ember";
+  margin-left: -3px;
+  /* position: absolute; */
 }
 .show-page {
-    border-radius: 4px;
-    background-color:  rgb(20, 20, 20);
-    height: 21.875rem;
-    width: 37.5rem;
-    /* background-color: rgb(20, 20, 20); */
-    position: absolute;
-    padding: 6px
-
+  border-radius: 4px;
+  background-color: rgb(20, 20, 20);
+  height: 21.875rem;
+  width: 37.5rem;
+  /* background-color: rgb(20, 20, 20); */
+  position: absolute;
+  padding: 6px;
 }
 
 .small-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .movie-poster {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-   
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .movie-posters {
-    height: 264px;
-    width: 174px;
-    /* border: 1px solid black; */
-    position: relative;
-    bottom: 1.4rem;
+  height: 264px;
+  width: 174px;
+  /* border: 1px solid black; */
+  position: relative;
+  bottom: 1.4rem;
 }
-
 
 button:focus,
 select:focus {
-    outline: none;
-    border: 2px dashed black
+  outline: none;
+  border: 2px dashed black;
 }
 input:focus,
-select:focus{
-  outline: none;  
+select:focus {
+  outline: none;
 }
 /* divs controling the buttons */
 .menu {
-    margin:.8rem;
-    object-fit: contain;
+  margin: 0.8rem;
+  object-fit: contain;
 }
 
 .tv {
-    margin:.8rem;
-    object-fit: contain;
+  margin: 0.8rem;
+  object-fit: contain;
 }
 
 /* .pro {
@@ -120,223 +112,210 @@ select:focus{
     object-fit: contain;
 } */
 .search-icon {
-    position: relative;
-    right: 2rem;
-    top: 4px;
-    object-fit: contain;
-    font-size: 18px;
-    color:
-    rgb(20, 20, 20);
-    /* border: 1px solid red */
-
+  position: relative;
+  right: 2rem;
+  top: 4px;
+  object-fit: contain;
+  font-size: 18px;
+  color: rgb(20, 20, 20);
+  /* border: 1px solid red */
 }
 
 .watch {
-    margin: .8rem;
-    object-fit: contain;
+  margin: 0.8rem;
+  object-fit: contain;
 }
 
 .sign {
-    margin: .5rem;
-    object-fit: contain;
+  margin: 0.5rem;
+  object-fit: contain;
 }
 
-.font{
-    font-size: 16px;
-    font-weight: bolder;
+.font {
+  font-size: 16px;
+  font-weight: bolder;
 }
 
 .font1 {
-    font-size: 14px;
-    color: magenta;
-    margin-left: 3px;
+  font-size: 14px;
+  color: magenta;
+  margin-left: 3px;
 }
 
 .font2 {
-    font-size: 16px;
-    font-weight: bolder;
+  font-size: 16px;
+  font-weight: bolder;
 }
 .menu-font {
-    font-size: 16px;
+  font-size: 16px;
 }
 .t-dots {
-    position: relative;
-    top: 3.5px;
-    color: gray;
-    font-size: 16px;
-    /* right: 20px */
-
+  position: relative;
+  top: 3.5px;
+  color: gray;
+  font-size: 16px;
+  /* right: 20px */
 }
 .navbar-font {
-    color: gray
+  color: gray;
 }
 .checkmark {
-   position: relative;
-   top: 3px;
-   color: gray; 
+  position: relative;
+  top: 3px;
+  color: gray;
 }
 
 /* buttons */
 .menu-button {
-    width: 5rem;
-    height: 2rem;
-    position: relative;
-    left: 5rem;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    color: whitesmoke;
-    object-fit: contain;
-    transition-duration: 0.4s;
-    border-radius: 3px;
-    font-size: 10px;
-    font-weight: bold;
-    font-family: 'Amazon Ember';
-    position: relative;
-    bottom: 2px;        
-
+  width: 5rem;
+  height: 2rem;
+  position: relative;
+  left: 5rem;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  color: whitesmoke;
+  object-fit: contain;
+  transition-duration: 0.4s;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Amazon Ember";
+  position: relative;
+  bottom: 2px;
 }
 .menu-button:hover {
-    background-color: #505050;
+  background-color: #505050;
 }
-
 
 .imdb-tv {
-    width: 5rem;
-    height: 2rem;
-    position: relative;
-    left: 1rem;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    color: whitesmoke;
-    object-fit: contain;
-    transition-duration: 0.4s;
-    border-radius: 3px;
-    font-size: 16px; 
-    font-weight: bold;
-    font-family: 'Amazon Ember';
-      
+  width: 5rem;
+  height: 2rem;
+  position: relative;
+  left: 1rem;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  color: whitesmoke;
+  object-fit: contain;
+  transition-duration: 0.4s;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Amazon Ember";
 }
 .imdb-tv:hover {
-    background-color: #505050;
+  background-color: #505050;
 }
 
-
 .all-button {
-    height: 2rem;
-    width: 3rem;
-    border-radius: 8px 0px 0px 8px;
-    object-fit: contain;
-    font-family: 'Amazon Ember';
-    
+  height: 2rem;
+  width: 3rem;
+  border-radius: 8px 0px 0px 8px;
+  object-fit: contain;
+  font-family: "Amazon Ember";
 }
 
 .imdb-pro {
-    width: 5rem;
-    height: 2rem;
-    position: relative;
-    right: 2.5rem;
-    /* margin-right: 2rem; */
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    color: whitesmoke;
-    object-fit: contain;
-    transition-duration: 0.4s;
-    border-radius: 3px;
-    font-family: 'Amazon Ember'           
+  width: 5rem;
+  height: 2rem;
+  position: relative;
+  right: 2.5rem;
+  /* margin-right: 2rem; */
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  color: whitesmoke;
+  object-fit: contain;
+  transition-duration: 0.4s;
+  border-radius: 3px;
+  font-family: "Amazon Ember";
 }
 
 .imdb-pro:hover {
-    background-color: #505050;
+  background-color: #505050;
 }
 .line {
-    height: 35px;
-    border-left: .3px solid rgba(169, 169, 169, 0.844);
-    position: relative;
-    right: 2.8rem;
+  height: 35px;
+  border-left: 0.3px solid rgba(169, 169, 169, 0.844);
+  position: relative;
+  right: 2.8rem;
 }
 
 .watchlist {
-    width: 6.6rem;
-    height: 2rem;
-    position: relative;
-    right: 5rem;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    color: whitesmoke;
-    object-fit: contain;
-    transition-duration: 0.4s;
-    border-radius: 3px;
-    font-family: 'Amazon Ember'; 
-    font-size: 16px;   
-    font-weight: bold;       
+  width: 6.6rem;
+  height: 2rem;
+  position: relative;
+  right: 5rem;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  color: whitesmoke;
+  object-fit: contain;
+  transition-duration: 0.4s;
+  border-radius: 3px;
+  font-family: "Amazon Ember";
+  font-size: 16px;
+  font-weight: bold;
 }
 .watchlist:hover {
-    background-color: #505050;
+  background-color: #505050;
 }
 
 .sign-in {
-    width: 5rem;
-    height: 2rem;
-    position: relative;
-    right: 8rem;
-    background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    color: whitesmoke;
-    object-fit: contain;
-    transition-duration: 0.4s;
-    border-radius: 3px;
-    font-family: 'Amazon Ember';
-    font-size: 16px;  
-    font-weight: bold;          
+  width: 5rem;
+  height: 2rem;
+  position: relative;
+  right: 8rem;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  color: whitesmoke;
+  object-fit: contain;
+  transition-duration: 0.4s;
+  border-radius: 3px;
+  font-family: "Amazon Ember";
+  font-size: 16px;
+  font-weight: bold;
 }
 .sign-in:hover {
-    background-color: #505050;
+  background-color: #505050;
 }
 
 @media (max-width: 1400px) {
-    .input {
-        width: 24.5rem;
-    }
+  .input {
+    width: 24.5rem;
+  }
 
-    .search-icon {
-       position: absolute;
-        left: 4rem
-    }
-
-
-    
-
-    
+  .search-icon {
+    position: absolute;
+    left: 4rem;
+  }
 }
 
 @media (max-width: 1204px) {
-    .main-navbar {
-        width: 110%
-    }
+  .main-navbar {
+    width: 110%;
+  }
 }
 
 @media (max-width: 1030px) {
-   .all-button {
+  .all-button {
     position: relative;
     right: 2.5rem;
-   }
+  }
 
-   /* .media-menu-button {
+  /* .media-menu-button {
     width: 5rem;
     height: 2rem;
     position: relative;
@@ -358,143 +337,137 @@ select:focus{
     
 } */
 
-
-   .imdb-image {
+  .imdb-image {
     position: relative;
     left: 5rem;
     /* top: 2.4rem; */
-   }
-   .input {
+  }
+  .input {
     position: relative;
     right: 2.5rem;
-   }
-    
-    .imdb-tv {
-        display: none;
-    }
+  }
 
-    .imdb-pro {
-        display: none;
-    }
+  .imdb-tv {
+    display: none;
+  }
 
-    .watchlist {
-        display: none;
-    }
+  .imdb-pro {
+    display: none;
+  }
 
-    .line {
-        position: relative;
-        right: 3.5rem;
-    }
+  .watchlist {
+    display: none;
+  }
 
-    .menu-button {
-       display: none;
-    }
+  .line {
+    position: relative;
+    right: 3.5rem;
+  }
 
-    .sign-in {
-        position: relative;
-        right: 7.5rem;
-    }
-    .media-menu {
-        width: 4rem;
-        position: absolute;
-        top: 4.5rem;
-        left: 60px;
-        /* border: 8px solid orange; */
-        /* display: hidden; */
-    }
+  .menu-button {
+    display: none;
+  }
 
-    .media-menu-button {
+  .sign-in {
+    position: relative;
+    right: 7.5rem;
+  }
+  .media-menu {
+    width: 4rem;
+    position: absolute;
+    top: 4.5rem;
+    left: 60px;
+    /* border: 8px solid orange; */
+    /* display: hidden; */
+  }
+
+  .media-menu-button {
     background-color: Transparent;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     border: none;
-    cursor:pointer;
+    cursor: pointer;
     overflow: hidden;
     color: whitesmoke;
     object-fit: contain;
     transition-duration: 0.4s;
     border-radius: 50%;
-    font-family: 'Amazon Ember';
+    font-family: "Amazon Ember";
     height: 38px;
     width: 38px;
     /* font-size: 22px;   */
-    }
+  }
 
-    .media-menu-button:hover {
-        background-color: #505050;
-    }
+  .media-menu-button:hover {
+    background-color: #505050;
+  }
 
-    .nav-dots {
-        font-size: 20px;
-    }
+  .nav-dots {
+    font-size: 20px;
+  }
 
-    .sign {
-        /* display: none; */
-    }
-
-
-
+  .sign {
+    /* display: none; */
+  }
 }
 
 @media (max-width: 850px) {
-    .main-navbar {
-        width: 100%
-    }
+  .main-navbar {
+    width: 100%;
+  }
 
-    .input {
-        width: 18rem
-    }
+  .input {
+    width: 18rem;
+  }
 }
 
 @media (max-width: 750px) {
-    .input {
-        width: 16rem
-    }
-} 
+  .input {
+    width: 16rem;
+  }
+}
 
 @media (max-width: 700px) {
-    .input {
-        display: none;
-    }
+  .input {
+    display: none;
+  }
 
-    .line {
-        display: none;
-    }
+  .line {
+    display: none;
+  }
 
-    .search-icon {
-        color: whitesmoke;
-        font-size: 36px;
-        margin-top: .5rem;
-        /* position: relative; */
-        /* left: 4rem; */
-    }
+  .search-icon {
+    color: whitesmoke;
+    font-size: 36px;
+    margin-top: 0.5rem;
+    /* position: relative; */
+    /* left: 4rem; */
+  }
 
-    .all-button {
-        display: none;
-    }
+  .all-button {
+    display: none;
+  }
 
-    .main-navbar {
-        width:100%;
-        display: flex;
-        justify-content: space-around;
+  .main-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
 
-    }
-
-    .imdb-image {
-        position: relative;
-        right: 2rem;
-        /* margin-right: 18rem; */
-    }
-} 
-
+  .imdb-image {
+    position: relative;
+    right: 2rem;
+    /* margin-right: 18rem; */
+  }
+}
 
 @media (max-width: 550px) {
-    .main-navbar {
-        width: 550px
-    }
+  .main-navbar {
+    width: 550px;
+  }
 }
 
 @media (max-width: 500px) {
-    .main-navbar {
-        width: 500px;
-    }
+  .main-navbar {
+    width: 500px;
+  }
 }

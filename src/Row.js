@@ -1,9 +1,9 @@
-import React, {useState, useEffect} from 'react'
-import axios from './axios'
-import './Row.css'
+import React, { useState, useEffect } from "react";
+import axios from "./axios";
+import "./Row.css";
 import Youtube from "react-youtube";
-import {BiPlayCircle} from 'react-icons/bi'
-import './Home.css'
+import { BiPlayCircle } from "react-icons/bi";
+import "./Home.css";
 
 const baseImgUrl = "https://image.tmdb.org/t/p/original";
 
@@ -16,7 +16,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
     height: "390",
     width: "100%",
     playerVars: {
-    //   autoplay: 1,
+      //   autoplay: 1,
     },
   };
 
@@ -49,7 +49,9 @@ function Row({ title, fetchUrl, isLargeRow }) {
           (movie) =>
             movie.backdrop_path !== null && (
               <img
-                className={`row_poster ${isLargeRow && "row_posterLarge"} ${<BiPlayCircle className='play-circle7' />}`}
+                className={`row_poster ${isLargeRow && "row_posterLarge"} ${(
+                  <BiPlayCircle className="play-circle7" />
+                )}`}
                 src={`${baseImgUrl}${
                   isLargeRow ? movie.poster_path : movie.backdrop_path
                 }`}
@@ -59,7 +61,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
               />
             )
         )}
-        
       </div>
       {trailerUrl && <Youtube videoId={trailerUrl} opts={opts} />}
     </div>

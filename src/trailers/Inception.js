@@ -1,21 +1,21 @@
-import React from 'react'
-import ReactPlayer from 'react-player'
+import React from "react";
+import ReactPlayer from "react-player";
 
 function Inception() {
-    return (
-            <ReactPlayer
-                        url='https://www.youtube.com/watch?v=YoHD9XEInc0'
-                        controls
-                        // playbackRate = {2}
-                        width = "896px"
-                        height = "504px" 
-                     />
-        )
+  return (
+    <ReactPlayer
+      url="https://www.youtube.com/watch?v=YoHD9XEInc0"
+      controls
+      // playbackRate = {2}
+      width="896px"
+      height="504px"
+    />
+  );
 }
 
-export default Inception
+export default Inception;
 
-  //  <Carousel className ='carousel-arrow'
+//  <Carousel className ='carousel-arrow'
 //     renderArrowNext={(onClickHandler, hasNext, label) =>
 //                 hasNext && (
 //                     <button
@@ -31,7 +31,7 @@ export default Inception
 //                   </button>
 //                 )
 //             }
-            
+
 //             renderArrowPrev={(onClickHandler, hasPrev, label) =>
 //                 hasPrev && (
 //                   <button
@@ -47,9 +47,6 @@ export default Inception
 //                   </button>
 //                 )
 //       }
-
-      
-    
 
 // >
 
