@@ -15,27 +15,29 @@ function ImdbTv() {
           border="0"
         />
       </div>
+      <div className='main-row'>
       <h3 className="row-title">TRENDING NOW</h3>
       <Row
         className="trending"
         fetchUrl={requests.fetchTrending}
         isLargeRow={true}
       />
-      <h3 className="row-title">TOP RATED</h3>
-      <Row fetchUrl={requests.fetchTopRated} isLargeRow={true} />
-      <h3 className="row-title">ACTION MOVIES</h3>
-      <Row fetchUrl={requests.fetchActionMovies} isLargeRow={true} />
-      <h3 className="row-title">COMEDIES</h3>
-      <Row fetchUrl={requests.fetchComedyMovies} isLargeRow={true} />
-      <h3 className="row-title">CHILLS AND THRILLS</h3>
-      <Row fetchUrl={requests.fetchHorrorMovies} isLargeRow={true} />
-      <h3 className="row-title">DATE NIGHT PICKS</h3>
-      <Row fetchUrl={requests.fetchRomanceMovies} isLargeRow={true} />
-      <h3 className="row-title">DOCUMENTARIES</h3>
-      <Row fetchUrl={requests.fetchDocumentaries} isLargeRow={true} />
-      <h3 className="row-title">NETFLIX ORIGINALS</h3>
-      <Row fetchUrl={requests.fetchNetflixOriginals} isLargeRow={true} />
-
+     
+        <h3 className="row-title">TOP RATED</h3>
+        <Row fetchUrl={requests.fetchTopRated} isLargeRow={true} />
+        <h3 className="row-title">ACTION MOVIES</h3>
+        <Row fetchUrl={requests.fetchActionMovies} isLargeRow={true} />
+        <h3 className="row-title">COMEDIES</h3>
+        <Row fetchUrl={requests.fetchComedyMovies} isLargeRow={true} />
+        <h3 className="row-title">CHILLS AND THRILLS</h3>
+        <Row fetchUrl={requests.fetchHorrorMovies} isLargeRow={true} />
+        <h3 className="row-title">DATE NIGHT PICKS</h3>
+        <Row fetchUrl={requests.fetchRomanceMovies} isLargeRow={true} />
+        <h3 className="row-title">DOCUMENTARIES</h3>
+        <Row fetchUrl={requests.fetchDocumentaries} isLargeRow={true} />
+        <h3 className="row-title">NETFLIX ORIGINALS</h3>
+        <Row fetchUrl={requests.fetchNetflixOriginals} isLargeRow={true} />
+      </div>
       <div className="questions">
         <p className="row-title1">Do you have questions about IMDb TV?</p>
         <button className="regular-button">Learn More</button>
