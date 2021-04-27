@@ -12,8 +12,7 @@
   height: 547px;
   max-width: 870px;
   position: relative;
-  /* left: -1rem; */
-  /* top: .5rem; */
+  object-fit: contain;
   overflow-y: hidden;
   overflow-x: scroll;
 }
@@ -51,7 +50,7 @@
     position: absolute;
 } */
 
-.background-img3:before {
+/* .background-img3:before {
   width: 100%;
   height: auto;
   content: "";
@@ -61,14 +60,14 @@
   right: 0;
   bottom: 0;
   background: linear-gradient(to bottom, transparent 0%, black 100%);
-}
+} */
 /* opacity: .5; */
 
 .background-img {
   height: 547px;
   width: 1600px;
   background-image: url("https://i.ibb.co/7bXjrGF/109300-inception-617-409-compressed.jpg");
-  background-size: cover;
+  background-size: contain;
   position: relative;
   left: 12rem;
   /* border: 1px solid red; */
@@ -79,8 +78,9 @@
 .background-img1 {
   height: 547px;
   width: 870px;
-  background-image: url("https://i.ibb.co/GdWpnkj/screen-shot-2017-03-06-at-9-25-42-am-e1565367625930.png");
-  background-size: cover;
+  background-image: url("https://i.ibb.co/bdwtrvk/zodiac-1-0.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
   /* bottom: 4rem;
     position: relative; */
   /* right: 4rem */
@@ -99,8 +99,9 @@
 .background-img2 {
   height: 547px;
   width: 870px;
-  background-image: url("https://i.ibb.co/fk2Pf6w/b25096c66b9ae89b0a46ee6e17be1761ae0ec32e.jpg");
-  background-size: cover;
+  background-image: url("https://i.ibb.co/2dMmSqY/IMG-7135-CR2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
   /* bottom: 4rem;
     position: relative;
     right: 8rem; */
@@ -110,7 +111,8 @@
   height: 547px;
   width: 870px;
   background-image: url("https://i.ibb.co/XXJ7dLw/inception-promo-stills-hq-dom-and-ariadne-17424214-1500-1000.jpg");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 /* .background-img2:before {
     content: '';
@@ -202,10 +204,10 @@
 }
 
 @media (max-width: 1300px) {
-  .background-img {
-    height: auto;
+  /* .background-img3 {
+    height: 548px;
     width: 100%;
-  }
+  } */
 
   .second-div {
     height: auto;
@@ -215,15 +217,12 @@
 }
 
 @media (max-width: 1000px) {
-  .background-img {
-    height: auto;
-    max-width: 100%;
-  }
+  
 
   .second-div {
     height: auto;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 }
 
@@ -255,14 +254,77 @@
 } */
 
 @media (max-width: 650px) {
-  .background-img {
-    height: 783px;
+  .background-img3 {
+    height: 432px;
     width: 581px;
+    object-fit: contain;
   }
-  .second-div {
-    height: 783px;
+
+  .background-img1 {
+    height: 432px;
+    width: 581px;
+    background-image: url("https://i.ibb.co/GdWpnkj/screen-shot-2017-03-06-at-9-25-42-am-e1565367625930.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .background-img2 {
+    height: 432px;
+    width: 581px;
+    /* background-image: url("https://i.ibb.co/GdWpnkj/screen-shot-2017-03-06-at-9-25-42-am-e1565367625930.png"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+
+    .second-div {
+    height: 283px;
     width: 581px;
     object-fit: cover;
+  }
+
+  .second-div1 {
+    height: 383px;
+    width: 581px;
+    object-fit: cover;
+  }
+  .second-div2 {
+    height: 383px;
+    width: 581px;
+    object-fit: cover;
+  }
+  .second-div3 {
+    height: 383px;
+    width: 581px;
+    object-fit: cover;
+  }
+
+  .second-info {
+    /* height: 385px */
+    height: 320px;
+    width: 400px;
+  }
+
+  .second-img {
+    position: relative;
+    bottom: 8rem;
+  }
+
+  .second-front {
+    position: relative;
+    bottom: 8rem;
+  }
+
+  .p-tag2 {
+    font-size: 20px;
+  }
+
+  .p-tag3 {
+    font-size: 16px;
+  }
+
+  .play-circle1 {
+    font-size: 48px;
   }
 }
 
@@ -273,8 +335,54 @@
   }
 
   .second-div {
+    height: 300px;
+    width: 556px;
+    object-fit: cover;
+  }
+
+  .second-info {
+    /* height: 385px */
+    height: 180px;
+    width: 400px;
+  }
+
+  .second-img {
+    position: relative;
+    bottom: 1.5rem;
+  }
+
+  .second-front {
+    position: relative;
+    bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .background-img {
+    height: 382px;
+    width: 556px;
+  }
+
+  .second-div {
     height: auto;
     width: 556px;
     object-fit: cover;
   }
+
+  .second-info {
+    /* height: 385px */
+    height: 180px;
+    width: 400px;
+  }
+
+  .second-img {
+    position: relative;
+    bottom: 2.5rem;
+  }
+
+  .second-front {
+    position: relative;
+    bottom: 2.5rem;
+  }
 }
+

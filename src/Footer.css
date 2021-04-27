@@ -1,7 +1,7 @@
 .main-footer {
   background-color: rgb(0, 0, 0);
   height: 22.625rem;
-  width: 100%;
+  min-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,4 +42,15 @@
 .copyright {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .footera {
+    font-size: 9px;
+  }
+
+  .main-footer {
+    position: relative;
+    left: 3rem;
+  }
 }

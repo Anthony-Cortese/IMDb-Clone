@@ -129,3 +129,27 @@
   bottom: 1rem;
   left: 0.5rem;
 }
+@media (max-width: 1206px) {
+  .pro-body {
+    min-width: 120vw;
+  }
+}
+@media (max-width: 530px) {
+  .pro-body {
+    width: 120vw;
+    /* max-height: 160vw; */
+  }
+
+  .signin-pro {
+    height: 348px;
+    width: 324px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 12px;
+  }
+
+  .bottom-pro {
+    display: none;
+  }
+}

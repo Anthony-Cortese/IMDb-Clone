@@ -12,56 +12,56 @@ function Footer() {
   return (
     <div className="main-footer">
       <div className="top-footer">
-        <a href={url}>
+        <a className='footera' href={url}>
           <AiFillFacebook className="nav-icons" />
         </a>
-        <a href={url}>
+        <a className='footera' href={url}>
           <FiInstagram className="nav-icons" />
         </a>
-        <a href={url}>
+        <a className='footera'href={url}>
           <FaTwitch className="nav-icons" />
         </a>
-        <a href={url}>
+        <a className='footera'href={url}>
           <GrTwitter className="nav-icons" />
         </a>
-        <a href={url}>
+        <a className='footera'href={url}>
           <AiFillYoutube className="nav-icons" />
         </a>
       </div>
       <div className="middle-footer">
-        <a href={url}>
+        <a className='footera'href={url}>
           Get The IMDb App <BsBoxArrowInUpRight />{" "}
         </a>
-        <a href={url}>
+        <a className='footera'href={url}>
           Help <BsBoxArrowInUpRight />{" "}
         </a>
-        <a href={url}>
+        <a className='footera'href={url}>
           Site Index <BsBoxArrowInUpRight />{" "}
         </a>
-        <a href={url}>
+        <a className='footera'href={url}>
           IMDbPro <BsBoxArrowInUpRight />{" "}
         </a>
-        <a href={url}>IMDb TV </a>
-        <a href={url}>
+        <a className='footera'href={url}>IMDb TV </a>
+        <a className='footera'href={url}>
           Box Office Mojo <BsBoxArrowInUpRight />{" "}
         </a>
-        <a href={url}>
+        <a className='footera'href={url}>
           IMDb Developer
           <BsBoxArrowInUpRight />{" "}
         </a>
       </div>
       <div className="bottom-footer">
-        <a href={url}>Press Room </a>
-        <a href={url}>
+        <a className='footera'href={url}>Press Room </a>
+        <a className='footera'href={url}>
           Advertising
           <BsBoxArrowInUpRight />{" "}
         </a>
-        <a href={url}>
+        <a className='footera'href={url}>
           Jobs <BsBoxArrowInUpRight />{" "}
         </a>
-        <a href={url}>Conditions of Use </a>
-        <a href={url}>Privacy Policy </a>
-        <a href={url}>
+        <a className='footera'href={url}>Conditions of Use </a>
+        <a className='footera'href={url}>Privacy Policy </a>
+        <a className='footera'href={url}>
           Internet-Based Ads
           <BsBoxArrowInUpRight />{" "}
         </a>
