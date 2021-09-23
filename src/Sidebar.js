@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { MdLocalMovies } from "react-icons/md";
 import { IoTv } from "react-icons/io5";
@@ -13,9 +13,6 @@ import "./Sidebar.css";
 import "./NavBar.css";
 
 function Sidebar() {
-  const [sidebar, setSidebar] = useState(false);
-
-  const showSidebar = () => setSidebar(!sidebar);
   const url = "";
 
   return (

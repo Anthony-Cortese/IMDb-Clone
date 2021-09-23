@@ -10,7 +10,6 @@ import Sean from "./trailers/Sean";
 import Inception from "./trailers/Inception";
 import ImdbTV from "./ImdbTV";
 import ImdbPro from "./ImdbPro";
-import Sidebar from "./Sidebar";
 
 function App() {
   return (

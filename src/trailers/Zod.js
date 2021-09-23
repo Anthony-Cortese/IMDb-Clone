@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
-import { BiBookmarkPlus } from "react-icons/bi";
-import { FaGripLinesVertical } from "react-icons/fa";
 import { BiPlayCircle } from "react-icons/bi";
 
 function Zod() {

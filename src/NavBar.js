@@ -4,9 +4,7 @@ import "./NavBar.css";
 import { AiOutlineSearch } from "react-icons/ai";
 import { TiThMenu } from "react-icons/ti";
 import { BiBookmarkPlus } from "react-icons/bi";
-import OpenMenu from "./OpenMenu";
 import Dropdown from "./Dropdown";
-import Sidebar from "./Sidebar";
 
 function NavBar() {
   const url = "";

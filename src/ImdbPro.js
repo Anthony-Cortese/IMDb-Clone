@@ -3,10 +3,6 @@ import "./ImdbPro.css";
 import "./SignIn.css";
 import { SiImdb } from "react-icons/si";
 import { AiFillAmazonSquare } from "react-icons/ai";
-import { FaFacebook } from "react-icons/fa";
-import { FcGoogle } from "react-icons/fc";
-import { GrApple } from "react-icons/gr";
-
 function ImdbPro() {
   return (
     <div className="pro-body">

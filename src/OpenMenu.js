@@ -7,7 +7,6 @@ import { IoTv } from "react-icons/io5";
 import { BsFillCollectionPlayFill } from "react-icons/bs";
 import { GiAlliedStar } from "react-icons/gi";
 import { BiWorld } from "react-icons/bi";
-import { ImCross } from "react-icons/im";
 import "./OpenMenu.css";
 
 function OpenMenu() {
