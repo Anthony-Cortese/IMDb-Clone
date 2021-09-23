@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 4px solid white;
+  /* border: 4px solid white; */
   max-width: 1280px;
 }
 .main-div {
@@ -1122,7 +1122,7 @@
   @media (max-width: 650px) {
     .ads-div {
       height: 15rem;
-      width: 550px;
+      width: 650px;
       /* border: 1px solid orange; */
       display: flex;
     }

@@ -12,7 +12,7 @@ function Zod() {
       <div className="trailer-img">
         <img
           className="trailer-img1"
-          src="https://i.ibb.co/0mDQ22q/PHOTOGRAPHS-TO-BE-USED-SOLELY-FOR-ADVERTISING-PROMOTION-PUBLICITY-OR-REVIEWS-OF-THIS-SPECIFIC-MOTION.jpg"
+          src="https://i.postimg.cc/sXbNx7f2/cc47a507854dfe4ea145ebb4c9ae51c4.jpg"
           alt="PHOTOGRAPHS-TO-BE-USED-SOLELY-FOR-ADVERTISING-PROMOTION-PUBLICITY-OR-REVIEWS-OF-THIS-SPECIFIC-MOTION"
           border="0"
         />

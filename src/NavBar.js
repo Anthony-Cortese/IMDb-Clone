@@ -31,7 +31,7 @@ function NavBar() {
         <Link to="/">
           <img
             className="imdb-image"
-            src="https://i.ibb.co/LPpKx8X/kisspng-computer-icons-television-logo-scalable-vector-gra-imdb-icon-free-of-cinema-icons-5ba31fc4e3.png"
+            src="https://i.postimg.cc/pTx0Mp44/1200px-IMDB-Logo-2016-svg.png"
             alt="kisspng-computer-icons-television-logo-scalable-vector-gra-imdb-icon-free-of-cinema-icons-5ba31fc4e3"
             border="0"
           />
@@ -70,15 +70,7 @@ function NavBar() {
                 <div className="movie-posters">
                   <img
                     className="movie-posters"
-                    src="https://i.ibb.co/6vhbLFQ/MV5-BMm-Ez-NTkx-Yj-Qt-ZTc0-MC00-YTVj-LTg5-ZTEt-ZWMw-OWVl-Yz-Y0-NWIw-Xk-Ey-Xk-Fqc-Gde-QXVy-Nzkw-Mj-Q5.jpg"
-                    alt="MV5-BMm-Ez-NTkx-Yj-Qt-ZTc0-MC00-YTVj-LTg5-ZTEt-ZWMw-OWVl-Yz-Y0-NWIw-Xk-Ey-Xk-Fqc-Gde-QXVy-Nzkw-Mj-Q5"
-                    border="0"
-                  />
-                </div>
-                <div className="movie-posters">
-                  <img
-                    className="movie-posters"
-                    src="https://i.ibb.co/rm1nTFC/MV5-BZDhk-Mj-Uy-Yj-It-YWVk-Yi00-YTM5-LWE4-MGEt-Y2-Fl-Mj-A3-OThl-Ym-Zh-Xk-Ey-Xk-Fqc-Gde-QXVy-ODk4-OTc.jpg"
+                    src="https://i.postimg.cc/d1BzB7VJ/Uncut-Gems-Movie-Art-print-Silk-poster-Home-Wall-Decor.jpg"
                     alt="MV5-BZDhk-Mj-Uy-Yj-It-YWVk-Yi00-YTM5-LWE4-MGEt-Y2-Fl-Mj-A3-OThl-Ym-Zh-Xk-Ey-Xk-Fqc-Gde-QXVy-ODk4-OTc"
                     border="0"
                   />
@@ -86,7 +78,15 @@ function NavBar() {
                 <div className="movie-posters">
                   <img
                     className="movie-posters"
-                    src="https://i.ibb.co/rfqbQCX/MV5-BMGUw-Zjli-MTAt-Nz-Ax-Zi00-MWNi-LWE2-Nzgt-ZGUx-MGQx-Zjhh-NDRi-Xk-Ey-Xk-Fqc-Gde-QXVy-Nj-U1-Nz-U3.jpg"
+                    src="https://i.postimg.cc/Dw30HDcm/41f-Jhub0c2-L-AC.jpg"
+                    alt="MV5-BZDhk-Mj-Uy-Yj-It-YWVk-Yi00-YTM5-LWE4-MGEt-Y2-Fl-Mj-A3-OThl-Ym-Zh-Xk-Ey-Xk-Fqc-Gde-QXVy-ODk4-OTc"
+                    border="0"
+                  />
+                </div>
+                <div className="movie-posters">
+                  <img
+                    className="movie-posters"
+                    src="https://i.postimg.cc/8cM88y1m/91kk-GWtyq-TL-AC-SY741.jpg"
                     alt="MV5-BMGUw-Zjli-MTAt-Nz-Ax-Zi00-MWNi-LWE2-Nzgt-ZGUx-MGQx-Zjhh-NDRi-Xk-Ey-Xk-Fqc-Gde-QXVy-Nj-U1-Nz-U3-"
                     border="0"
                   />

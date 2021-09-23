@@ -13,7 +13,7 @@ function ImdbPro() {
       <div className="pro-title">
         <img
           className="pro-img"
-          src="https://i.ibb.co/xScC5g4/338-3388998-internetmoviedatabase-imdbpro-imdb-logo-websites-imdb-pro-logo.jpg"
+          src="https://i.postimg.cc/vH8P3s8Q/IMDb-Pro-Primary-V532237639.jpg"
           alt="338-3388998-internetmoviedatabase-imdbpro-imdb-logo-websites-imdb-pro-logo"
           border="0"
         />
@@ -66,13 +66,13 @@ function ImdbPro() {
         <div className="pro-images">
           <img
             className="pro-image"
-            src="https://i.ibb.co/bWDQzK5/222-2228504-app-store-badge-png-download-app-store-png.jpg"
+            src="https://i.postimg.cc/K8r9M1cf/badge-example-preferred-2x.png"
             alt="222-2228504-app-store-badge-png-download-app-store-png"
             border="0"
           />
           <img
             className="pro-image"
-            src="https://i.ibb.co/wd6cF2k/22-227363-people-need-not-worry-about-the-devices-they.jpg"
+            src="https://i.postimg.cc/52tKdxS2/1200px-Google-Play-Store-badge-EN-svg.png"
             alt="22-227363-people-need-not-worry-about-the-devices-they"
             border="0"
           />

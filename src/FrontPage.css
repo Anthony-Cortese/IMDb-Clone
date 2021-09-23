@@ -50,7 +50,7 @@
     position: absolute;
 } */
 
-/* .background-img3:before {
+.background-img3:before {
   width: 100%;
   height: auto;
   content: "";
@@ -60,13 +60,13 @@
   right: 0;
   bottom: 0;
   background: linear-gradient(to bottom, transparent 0%, black 100%);
-} */
+}
 /* opacity: .5; */
 
 .background-img {
   height: 547px;
   width: 1600px;
-  background-image: url("https://i.ibb.co/7bXjrGF/109300-inception-617-409-compressed.jpg");
+  background-image: url("https://i.postimg.cc/VvQzxPW6/61038-warner-bros1.jpg");
   background-size: contain;
   position: relative;
   left: 12rem;
@@ -78,7 +78,7 @@
 .background-img1 {
   height: 547px;
   width: 870px;
-  background-image: url("https://i.ibb.co/bdwtrvk/zodiac-1-0.jpg");
+  background-image: url("https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/v1555278745/shape/mentalfloss/zodiached.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   /* bottom: 4rem;
@@ -99,7 +99,7 @@
 .background-img2 {
   height: 547px;
   width: 870px;
-  background-image: url("https://i.ibb.co/2dMmSqY/IMG-7135-CR2.jpg");
+  background-image: url("https://i.postimg.cc/kXZmVtHS/MV5-BMj-A3-Mz-A5-Mz-Yw-Nl5-BMl5-Ban-Bn-Xk-Ft-ZTcw-Mzg3-ODIx-NA-V1.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   /* bottom: 4rem;
@@ -108,9 +108,12 @@
 }
 
 .background-img3 {
-  height: 547px;
+  /* position: relative;
+  top: .5rem; */
+  height: 647px;
   width: 870px;
-  background-image: url("https://i.ibb.co/XXJ7dLw/inception-promo-stills-hq-dom-and-ariadne-17424214-1500-1000.jpg");
+  /* background-image: url("https://i.postimg.cc/VvQzxPW6/61038-warner-bros1.jpg"); */
+  background-image: url("https://i.postimg.cc/fLJLnhSn/image.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -278,7 +281,7 @@
 
 
     .second-div {
-    height: 283px;
+    height: 453px;
     width: 581px;
     object-fit: cover;
   }

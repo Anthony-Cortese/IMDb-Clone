@@ -17,7 +17,7 @@ function Featured() {
             <div className="list">
               <img
                 className="featured-img"
-                src="https://i.ibb.co/3p653Rh/maxresdefault.jpg"
+                src="https://i.postimg.cc/kX6WQrjp/maxresdefault.jpg"
                 alt="maxresdefault"
                 border="0"
               />

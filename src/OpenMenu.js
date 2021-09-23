@@ -7,6 +7,7 @@ import { IoTv } from "react-icons/io5";
 import { BsFillCollectionPlayFill } from "react-icons/bs";
 import { GiAlliedStar } from "react-icons/gi";
 import { BiWorld } from "react-icons/bi";
+import { ImCross } from "react-icons/im";
 import "./OpenMenu.css";
 
 function OpenMenu() {
@@ -18,7 +19,7 @@ function OpenMenu() {
           {" "}
           <img
             className="yellow"
-            src="https://i.ibb.co/C8v8qd6/pngwing-com-3.png"
+            src="https://i.postimg.cc/pTx0Mp44/1200px-IMDB-Logo-2016-svg.png"
             alt="imdb"
             border="0"
           />
@@ -26,7 +27,7 @@ function OpenMenu() {
         <Link to="/">
           <img
             className="x"
-            src="https://i.ibb.co/4j7zZT7/pngwing-com-4.png"
+            src="https://i.postimg.cc/SRN93PLw/090-700.jpg"
             alt="x"
             border="0"
           />

@@ -14,7 +14,7 @@ function Sean() {
       <div className="trailer-img">
         <img
           className="trailer-img1"
-          src="https://i.ibb.co/6Jncq8t/83647855-10158906901436756-8680783986512887808-n.jpg"
+          src="https://i.postimg.cc/5tTzQDpq/IMG-2781.jpg"
           alt="83647855-10158906901436756-8680783986512887808-n"
           border="0"
         />

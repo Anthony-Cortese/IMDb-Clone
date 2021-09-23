@@ -1,15 +1,15 @@
-import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
 import { BiPlayCircle } from "react-icons/bi";
+import { useState } from "react";
 
-function Larry() {
+function Depp() {
   const [isOpen, setOpen] = useState(false);
   return (
-    <div className="main-interviews2">
+    <div className="main-interviews3">
       <img
         className="editors-img"
-        src="https://i.postimg.cc/RCXjw6PX/maxresdefault.jpg"
-        alt="hqdefault"
+        src="https://i.postimg.cc/654FbVtp/maxresdefault.jpg"
+        alt="Depp"
         border="0"
       />
       <div className="ads-title3">
@@ -17,16 +17,16 @@ function Larry() {
           channel="youtube"
           autoplay
           isOpen={isOpen}
-          videoId="_unE0NsfrIs"
+          videoId="NEBJHAtaj_s"
           onClose={() => setOpen(false)}
         />
         <button className="play-button1" onClick={() => setOpen(true)}>
           <BiPlayCircle className="play-circle4" />
         </button>
-        <p className="p-tag">Larry David talks Curb Your Enthusiasm</p>
+        <p className="p-tag">An interview with Johnny Depp</p>
       </div>
     </div>
   );
 }
 
-export default Larry;
+export default Depp;

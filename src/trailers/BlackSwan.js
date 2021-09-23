@@ -14,7 +14,7 @@ function BlackSwan() {
             <GoBookmark className="watchlist-icon1" />
             <img
               className="inception-img"
-              src="https://i.ibb.co/bHs2BWH/024543715061.jpg"
+              src="https://i.postimg.cc/4KKGtCKW/black-swan-poster.jpg"
               alt="8cf50be9d4b8f459a1290c4fafa199c2"
               border="0"
             />

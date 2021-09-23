@@ -28,7 +28,7 @@ function Trailers() {
           </div>
           <div className="new-movie">
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=_VJgaDE7W-c&t=1s"
+              url="https://www.youtube.com/watch?v=jr6vgvhJlH0"
               controls
               // playbackRate = {2}
               height="221.97px"
@@ -56,8 +56,8 @@ function Trailers() {
           <div className="trailer-info">
             <BiBookmarkPlus className="trailer-icon" />
             <div className="movie-dates">
-              <p className="p-tag">March 18</p>
-              <p className="p-tag">Underneath The Bottom</p>
+              <p className="p-tag">April 2</p>
+              <p className="p-tag">Naomi</p>
             </div>
           </div>
           <div className="trailer-info">

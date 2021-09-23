@@ -10,19 +10,19 @@ function ImdbTv() {
       <div className="main-ads">
         <img
           className="main-ads-img"
-          src="https://i.ibb.co/z6LmpQx/imdb-tv.jpg"
+          src="https://i.postimg.cc/k5W4ZW1d/61-Ktd-FSfik-L-QL85-V1.jpg"
           alt="71pubpl-JHn-L"
           border="0"
         />
       </div>
-      <div className='main-row'>
-      <h3 className="row-title">TRENDING NOW</h3>
-      <Row
-        className="trending"
-        fetchUrl={requests.fetchTrending}
-        isLargeRow={true}
-      />
-     
+      <div className="main-row">
+        <h3 className="row-title">TRENDING NOW</h3>
+        <Row
+          className="trending"
+          fetchUrl={requests.fetchTrending}
+          isLargeRow={true}
+        />
+
         <h3 className="row-title">TOP RATED</h3>
         <Row fetchUrl={requests.fetchTopRated} isLargeRow={true} />
         <h3 className="row-title">ACTION MOVIES</h3>

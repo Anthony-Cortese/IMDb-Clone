@@ -10,7 +10,7 @@
 }
 
 .signin-div {
-  border: 4px solid red;
+  /* border: 4px solid red; */
   height: 400px;
   width: 405px;
   display: flex;

@@ -13,7 +13,7 @@ function Zodiac() {
             <GoBookmark className="watchlist-icon1" />
             <img
               className="inception-img"
-              src="https://i.ibb.co/mRHjTfg/8cf50be9d4b8f459a1290c4fafa199c2.jpg"
+              src="https://i.postimg.cc/Z0wfkWsy/Zodiac-hollywood-thriller-movies.jpg"
               alt="8cf50be9d4b8f459a1290c4fafa199c2"
               border="0"
             />

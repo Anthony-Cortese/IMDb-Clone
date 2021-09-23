@@ -13,3 +13,11 @@ The main movie can change with a horizontal scroll.
 The Trending celebrities can update with a horizontal scroll.
 
 The website is fully responsive, and the information in Featured Today, Fan Favorites, Exclusive Videos, Explore what is streaming, On TV, Trending Celebrities, and Top News is all available with a horizontal scroll.
+
+INCEPTION:
+<img
+                className="inception-img"
+                src="https://i.postimg.cc/F1ySM8Pd/leonardo-dicaprio-in-inception-hd.jpg"
+                border="0"
+                alt="leonardo-dicaprio-in-inception-hd"
+              />

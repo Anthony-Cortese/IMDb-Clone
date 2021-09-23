@@ -8,7 +8,7 @@ function Natalie() {
     <div className="list1">
       <img
         className="featured-img"
-        src="https://i.ibb.co/dj0GM9H/Screen-Shot-2018-11-30-at-12-58-42-PM.webp"
+        src="https://i.postimg.cc/sxvctM3Y/Screen-Shot-2018-11-30-at-12-58-42-PM.jpg"
         alt="Screen-Shot-2018-11-30-at-12-58-42-PM"
         border="0"
       />

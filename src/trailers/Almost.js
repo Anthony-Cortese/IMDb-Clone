@@ -8,7 +8,7 @@ function Almost() {
       <div className="trailer-img">
         <img
           className="trailer-img1"
-          src="https://i.ibb.co/kJSJWdv/51-Lr0-Zu-Ctx-L-AC.jpg"
+          src="https://i.postimg.cc/PrdqKRkT/IMG-2858.jpg"
           alt="51-Lr0-Zu-Ctx-L-AC"
           border="0"
         />

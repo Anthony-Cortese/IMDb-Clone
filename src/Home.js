@@ -21,6 +21,7 @@ import Sean from "./trailers/Sean";
 import Zod from "./trailers/Zod";
 import Almost from "./trailers/Almost";
 import Larry from "./trailers/Larry";
+import Depp from "./trailers/Depp";
 
 function Home() {
   const [isOpen, setOpen] = useState(false);
@@ -31,7 +32,7 @@ function Home() {
         <div className="ads-div">
           <img
             className="ad-img"
-            src="https://i.ibb.co/Dp6rjKr/71pubpl-JHn-L.jpg"
+            src="https://i.postimg.cc/Fz5fWNXD/imdb-tv.jpg' border='0' alt='imdb-tv"
             alt="imdb-tv"
             border="0"
           />
@@ -110,7 +111,7 @@ function Home() {
             <div className="main-interviews1">
               <img
                 className="editors-img1"
-                src="https://i.ibb.co/cQf3NGH/maxresdefault4.jpg"
+                src="https://i.postimg.cc/wMMHDhDY/maxresdefault.jpg"
                 alt="maxresdefault4"
                 border="0"
               />
@@ -134,22 +135,24 @@ function Home() {
             </div>
 
             <Larry />
-            <div className="main-interviews3">
+
+            <Depp />
+            {/* <div className="main-interviews3">
               <img
                 className="editors-img"
-                src="https://i.ibb.co/mvMtvqk/Anne-Hathaway-Matthew-Mc-Conaughey-Jessica-Chastain-Intersteller-interview.jpg"
+                src="https://i.postimg.cc/654FbVtp/maxresdefault.jpg"
                 alt="Anne-Hathaway-Matthew-Mc-Conaughey-Jessica-Chastain-Intersteller-interview"
                 border="0"
               />
               <div className="ads-title2">
                 {/* <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="1b1ibbFGPSE" onClose={() => setOpen(false)} /> */}
 
-                <button className="play-button1" onClick={() => setOpen(true)}>
+            {/* <button className="play-button1" onClick={() => setOpen(true)}>
                   <BiPlayCircle className="play-circle4" />
                 </button>
-                <p className="p-tag">The stars of Interstellar speak</p>
+                <p className="p-tag">An interview with Johnny Depp</p>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="total-ads"></div>
         </div>
@@ -172,7 +175,7 @@ function Home() {
             <div className="movie-poster">
               <img
                 className="poster1"
-                src="https://i.ibb.co/StkPmQd/MV5-BY2-Qw-Ym-Fm-ZTEt-Nz-Y2-Mi00-ZWMy-LWEw-Y2-Yt-MGIy-NGZj-MWEx-OWEy-Xk-Ey-Xk-Fqc-Gde-QXVy-Nj-Uw-Nzk.jpg"
+                src="https://i.postimg.cc/PJ4Rtxx3/predator-1987-original-film-art-c5526363-57e7-46b4-839e-27430aa32a8a-1200x.jpg"
                 alt="MV5-BY2-Qw-Ym-Fm-ZTEt-Nz-Y2-Mi00-ZWMy-LWEw-Y2-Yt-MGIy-NGZj-MWEx-OWEy-Xk-Ey-Xk-Fqc-Gde-QXVy-Nj-Uw-Nzk"
                 border="0"
               />
@@ -192,7 +195,7 @@ function Home() {
             <div className="movie-poster">
               <img
                 className="poster1"
-                src="https://i.ibb.co/QJzDVQ7/MV5-BMjhi-Mzgx-ZTct-NDc1-Ni00-OTIx-LTlh-MTYt-ZTA3-ZWFk-ODRk-Nm-E2-Xk-Ey-Xk-Fqc-Gde-QXVy-Nzkw-Mj-Q5-N.jpg"
+                src="https://i.postimg.cc/L6vkxCNL/bad-movie.jpg"
                 alt="MV5-BMjhi-Mzgx-ZTct-NDc1-Ni00-OTIx-LTlh-MTYt-ZTA3-ZWFk-ODRk-Nm-E2-Xk-Ey-Xk-Fqc-Gde-QXVy-Nzkw-Mj-Q5-N"
                 border="0"
               />
@@ -212,8 +215,8 @@ function Home() {
             <div className="movie-poster">
               <img
                 className="poster1"
-                src="https://i.ibb.co/vCNCwJn/MV5-BMj-A5-Njk3-Mj-M4-OV5-BMl5-Ban-Bn-Xk-Ft-ZTcw-MTc5-MTE1-MQ-V1.jpg"
-                alt="MV5-BMj-A5-Njk3-Mj-M4-OV5-BMl5-Ban-Bn-Xk-Ft-ZTcw-MTc5-MTE1-MQ-V1"
+                src="https://i.postimg.cc/MTPxP8Mg/51-Qmd5-JHNe-L-AC.jpg"
+                alt="No Country For Old Men"
                 border="0"
               />
             </div>
@@ -232,14 +235,14 @@ function Home() {
             <div className="movie-poster">
               <img
                 className="poster1"
-                src="https://i.ibb.co/YtcbHgg/MV5-BNGNh-MDIz-ZTUt-NTBl-Zi00-MTRl-LWFj-M2-It-Yz-Vi-Mj-E3-Yz-I5-Mjlj-Xk-Ey-Xk-Fqc-Gde-QXVy-Nzkw-Mj-Q.jpg"
+                src="https://i.postimg.cc/MTkrz3kX/51-USEb2-Ou7-L-AC.jpg"
                 alt="MV5-BNGNh-MDIz-ZTUt-NTBl-Zi00-MTRl-LWFj-M2-It-Yz-Vi-Mj-E3-Yz-I5-Mjlj-Xk-Ey-Xk-Fqc-Gde-QXVy-Nzkw-Mj-Q"
                 border="0"
               />
             </div>
             <div className="film-info">
-              <div className="rating">☆8.9</div>
-              <div className="film-name">Pulp Fiction</div>
+              <div className="rating">☆8.2</div>
+              <div className="film-name">Jackie Brown</div>
               <div className="options">
                 <button className="watch-button">Watch Options</button>
                 <button className="watch-button1">▶︎ Trailer</button>
@@ -252,7 +255,7 @@ function Home() {
             <div className="movie-poster">
               <img
                 className="poster1"
-                src="https://i.ibb.co/VLdZ4yd/MV5-BNDJh-YTk2-MTct-Zm-Vm-OS00-OTVi-LTgx-Nj-Qt-Mz-Qx-OTRi-MDdm-NGRj-Xk-Ey-Xk-Fqc-Gde-QXVy-MTMx-ODk2.jpg"
+                src="https://i.postimg.cc/J4PrtZzR/Q0095-Posters-and-Prints-Hot-The-Handmaiden-Movie-Ah-ga-ssi-Korea-Art-Poster-Canvas-Painting.jpg"
                 alt="MV5-BNDJh-YTk2-MTct-Zm-Vm-OS00-OTVi-LTgx-Nj-Qt-Mz-Qx-OTRi-MDdm-NGRj-Xk-Ey-Xk-Fqc-Gde-QXVy-MTMx-ODk2-"
                 border="0"
               />
@@ -272,7 +275,7 @@ function Home() {
             <div className="movie-poster">
               <img
                 className="poster1"
-                src="https://i.ibb.co/CJSK1yD/MV5-BMj-Ix-Mjgx-NTk0-MF5-BMl5-Ban-Bn-Xk-Ft-ZTgw-Nj-Iy-OTg2-MDE-V1.jpg"
+                src="https://i.postimg.cc/fb0SxBVc/51-U1oq-mf8-L-AC.jpg"
                 alt="MV5-BMj-Ix-Mjgx-NTk0-MF5-BMl5-Ban-Bn-Xk-Ft-ZTgw-Nj-Iy-OTg2-MDE-V1"
                 border="0"
               />
@@ -315,32 +318,30 @@ function Home() {
             <div className="main-interviews1">
               <img
                 className="editors-img1"
-                src="https://i.ibb.co/bPQcKK3/MV5-BZm-Rl-Zm-Zk-MGEt-Mjcx-MC00-MWNm-LThh-MTQt-MTIz-OWVm-OWFj-Mj-Bh-Xk-Ey-Xk-Fqc-Gde-QXVy-MTEy-Mj-M2.jpg"
+                src="https://i.postimg.cc/jdWqvgxF/MV5-BNj-Ew-NDU4-NGIt-Mz-Fi-OC00-OTU0-LWIy-OTct-Mm-I5-Mz-Ex-OTZl-Nz-Bl-Xk-Ey-Xk-Fqc-Gde-QXVy-MTEy-Mj-M2-NDc2-V1-QL75-UX380-CR0.jpg"
                 alt="MV5-BZm-Rl-Zm-Zk-MGEt-Mjcx-MC00-MWNm-LThh-MTQt-MTIz-OWVm-OWFj-Mj-Bh-Xk-Ey-Xk-Fqc-Gde-QXVy-MTEy-Mj-M2"
                 border="0"
               />
               <div className="ads-title4">
-                <p className="p-tag">
-                  The best TV and Movies to watch in April
-                </p>
+                <p className="p-tag">The best new Movies to watch in October</p>
               </div>
             </div>
 
             <div className="main-interviews2">
               <img
                 className="editors-img"
-                src="https://i.ibb.co/7kQRTVL/MV5-BZDlm-Nj-Bi-Yz-Et-M2-Qz-Mi00-Yj-M1-LThm-NDEt-Yz-Ey-Mz-Y3-ZGQ3-ZTM2-Xk-Ey-Xk-Fqc-Gde-QXVy-MTEy-Mj.jpg"
+                src="https://i.postimg.cc/FRXtNp3D/MV5-BNj-E5-Nj-Q4-MTMt-Zm-Jk-Zi00-Zj-Jm-LTgx-NTEt-Yjgx-NDk0-Zj-I0-Nz-M3-Xk-Ey-Xk-Fqc-Gde-QXVy-MTEy-Mj-M2-NDc2-V1-SX700-CR0-0-700.jpg"
                 alt="MV5-BZDlm-Nj-Bi-Yz-Et-M2-Qz-Mi00-Yj-M1-LThm-NDEt-Yz-Ey-Mz-Y3-ZGQ3-ZTM2-Xk-Ey-Xk-Fqc-Gde-QXVy-MTEy-Mj"
                 border="0"
               />
               <div className="ads-title4">
-                <p className="p-tag">The best TV shows currently streaming</p>
+                <p className="p-tag">The top picks from our editor's</p>
               </div>
             </div>
             <div className="main-interviews3">
               <img
                 className="editors-img"
-                src="https://i.ibb.co/VSQgxxY/MV5-BNTUy-ZGMy-ZTIt-YWRj-Yy00-Zj-Ez-LWE2-YWUt-MTAx-MGQ1-NTNj-MTRj-Xk-Ey-Xk-Fqc-Gde-QXVy-MTEy-Mj-M2-N.jpg"
+                src="https://i.postimg.cc/QtJLf7wC/MV5-BYjk1-Mz-Bh-ODYt-MWZi-YS00-MDhi-LWEx-Mz-Et-MDM5-Y2-Ji-NDlj-Mm-Q1-Xk-Ey-Xk-Fqc-Gde-QXVy-MTEy-Mj-M2-NDc2-V1-SX700-CR0-0-700.jpg"
                 alt="MV5-BNTUy-ZGMy-ZTIt-YWRj-Yy00-Zj-Ez-LWE2-YWUt-MTAx-MGQ1-NTNj-MTRj-Xk-Ey-Xk-Fqc-Gde-QXVy-MTEy-Mj-M2-N"
                 border="0"
               />
@@ -366,7 +367,7 @@ function Home() {
             <div className="celeb-img3">
               <img
                 className="celeb-img2"
-                src="https://i.ibb.co/BZ1PZ3L/leonardo-dicaprio.jpg"
+                src="https://i.postimg.cc/1R2vTBhd/1acbb13f4d1415ac9a13fc58114b018e.jpg"
                 alt="leonardo-dicaprio"
                 border="0"
               />
@@ -376,7 +377,7 @@ function Home() {
             <div className="celeb-img">
               <img
                 className="celeb-img1"
-                src="https://i.ibb.co/0YSj2dV/3393.jpg"
+                src="https://i.postimg.cc/76YqFD7q/dcf8aa3ed7acbfa0ebf5abb28d7b5b86.jpg"
                 alt="3393"
                 border="0"
               />
@@ -385,7 +386,7 @@ function Home() {
             <div className="celeb-img3">
               <img
                 className="celeb-img2"
-                src="https://i.ibb.co/vvCd6kb/MV5-BMTgx-NDcw-Mz-U2-Nl5-BMl5-Ban-Bn-Xk-Ft-ZTcw-NDc4-Nzkz-OQ-V1.jpg"
+                src="https://i.postimg.cc/nLkMN3sf/image-url-https-static-onecms-io-wp-content-uploads-sites-13-2018-03-04-margot-e1519855416218.jpg"
                 alt="MV5-BMTgx-NDcw-Mz-U2-Nl5-BMl5-Ban-Bn-Xk-Ft-ZTcw-NDc4-Nzkz-OQ-V1"
                 border="0"
               />
@@ -394,13 +395,13 @@ function Home() {
             <div className="celeb-img">
               <img
                 className="celeb-img1"
-                src="https://i.ibb.co/RvydQyC/2002.jpg"
+                src="https://i.postimg.cc/QtssZ79L/29595cb04a16da9b29829960dbcdc116d1-matthew-mcconaughey-rsquare-w1200.jpg"
                 alt="2002"
                 border="0"
               />
               <p className="celeb-tag">Matthew Mcconaughey</p>
             </div>
-            <div className="celeb-img">
+            {/* <div className="celeb-img">
               <img
                 className="celeb-img1"
                 src="https://i.ibb.co/bWskVnw/brad-pitt-attends-the-premiere-of-20th-century-foxs-ad-news-photo-1580754081.jpg"
@@ -408,11 +409,11 @@ function Home() {
                 border="0"
               />
               <p className="celeb-tag">Brad Pitt</p>
-            </div>
+            </div> */}
             <div className="celeb-img">
               <img
                 className="celeb-img2"
-                src="https://i.ibb.co/LdgjF7b/5aadf505-be8d-4023-bc1d-045a237b96b3.jpg"
+                src="https://i.postimg.cc/tggRsWRh/image.jpg"
                 alt="5aadf505-be8d-4023-bc1d-045a237b96b3"
                 border="0"
               />
@@ -421,7 +422,7 @@ function Home() {
             <div className="celeb-img">
               <img
                 className="celeb-img2"
-                src="https://i.ibb.co/DDtzNmK/anya-taylor-joy-golden-globes.jpg"
+                src="https://i.postimg.cc/YSYCQMK3/anyataylorjoy-dior-01-013-1614571163.jpg"
                 alt="anya-taylor-joy-golden-globes"
                 border="0"
               />
@@ -430,7 +431,7 @@ function Home() {
             <div className="celeb-img">
               <img
                 className="celeb-img2"
-                src="https://i.ibb.co/DKCPgnX/Riley-Keough.jpg"
+                src="https://i.postimg.cc/L5rWkKMt/Riley-Keough.jpg"
                 alt="Riley-Keough"
                 border="0"
               />
@@ -439,7 +440,7 @@ function Home() {
             <div className="celeb-img">
               <img
                 className="celeb-img2"
-                src="https://i.ibb.co/D8TbG7q/1328683-1328661-idrisindex-52158-348458.jpg"
+                src="https://i.postimg.cc/Xv1XVQWM/idris-elba-c98ae9b4-9988-11e9-8cf5-d8c3e6deb331.jpg"
                 alt="1328683-1328661-idrisindex-52158-348458"
                 border="0"
               />
