@@ -50,7 +50,7 @@
     position: absolute;
 } */
 
-.background-img3:before {
+/* .background-img3:before {
   width: 100%;
   height: auto;
   content: "";
@@ -60,7 +60,7 @@
   right: 0;
   bottom: 0;
   background: linear-gradient(to bottom, transparent 0%, black 100%);
-}
+} */
 /* opacity: .5; */
 
 .background-img {
