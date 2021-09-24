@@ -1,4 +1,4 @@
-Deployed site: akc-imdb.netlify.app
+Deployed site: https://akc-imdb.netlify.app/
 
 IMDb Clone built from scratch.
 
