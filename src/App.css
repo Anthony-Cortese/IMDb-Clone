@@ -1,17 +1,20 @@
-@import url(https://db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+@import url(http://db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
 
-@font-face {
-  font-family: "Amazon Ember";
-  src: url("https://db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember");
-  font-style: normal;
-  font-weight: 50;
-}
+@font-face {font-family: "Amazon Ember"; 
+  src: url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.eot"); 
+  src: url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/157c6cc36dd65b1b2adc9e7f3329c761.svg#Amazon Ember") format("svg"); }
 
 body {
   /* width: 100%; */
   /* background-color: rgb(52, 49, 49); */
   background-color: rgb(0, 0, 0);
   font-family: "Amazon Ember";
+  font-style: normal;
+  font-weight: 50;
 }
 
 /* the div on the app that allows movement */
