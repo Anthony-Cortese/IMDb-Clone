@@ -28,7 +28,7 @@ function Sean() {
         <button className="play-button1" onClick={() => setOpen(true)}>
           <BiPlayCircle className="play-circle" />
         </button>
-        <span className="p-tag">"Sean Cortese"</span>
+        <span className="p-tag">Sean Cortese</span>
         <span className="p-tag1">Watch his new monologue</span>
       </div>
     </div>

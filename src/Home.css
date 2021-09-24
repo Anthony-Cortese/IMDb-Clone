@@ -44,7 +44,9 @@
 .up-next1 {
   width: 25.188rem;
   height: 3.25rem;
-  /* margin-top: 7px; */
+  position: relative;
+  top: 1rem;
+  left: 1rem;
   text-align: left;
 }
 .trailer1 {
