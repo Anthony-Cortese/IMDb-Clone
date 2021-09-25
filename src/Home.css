@@ -1046,6 +1046,10 @@
     display: none;
   }
 
+  .first-div {
+    display: none;
+  }
+
   /* .interviews {
         width: 53.832rem;
     }
@@ -1177,6 +1181,10 @@
     .big-div {
       max-width: 100%;
       /* left: .5rem */
+    }
+
+    .main-div {
+      height: 400px;
     }
 
     .what-watch {
