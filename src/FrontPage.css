@@ -77,7 +77,7 @@
 .background-img1 {
   height: 547px;
   width: 870px;
-  background-image: url("https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/v1555278745/shape/mentalfloss/zodiached.jpg");
+  background-image: url("https://i.postimg.cc/3wZH9Th2/zodiached.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   /* bottom: 4rem;
@@ -113,6 +113,7 @@
   width: 870px;
   /* background-image: url("https://i.postimg.cc/VvQzxPW6/61038-warner-bros1.jpg"); */
   background-image: url("https://i.postimg.cc/fLJLnhSn/image.jpg");
+  object-fit: contain;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -309,6 +310,7 @@
     height: 432px;
     width: 581px;
     object-fit: contain;
+    left: 48px;
   }
 
   .background-img1 {
@@ -379,22 +381,24 @@
   }
 }
 
-@media (max-width: 550px) {
-  .background-img {
-    height: 382px;
+/* @media (max-width: 550px) {
+  .background-img3 {
+    height: auto;
     width: 556px;
   }
 
   .second-div {
     height: 300px;
     width: 556px;
-    object-fit: cover;
-  }
+    bottom: 3rem;
+    /* object-fit: cover; */
+  /* }
 
-  .second-info {
+  .second-info { */
     /* height: 385px */
-    height: 180px;
+    /* height: 180px;
     width: 400px;
+    bottom: 3rem;
   }
 
   .second-img {
@@ -406,7 +410,7 @@
     position: relative;
     bottom: 1.5rem;
   }
-}
+} */
 
 @media (max-width: 500px) {
   .background-img {

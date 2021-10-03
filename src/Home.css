@@ -1153,6 +1153,7 @@
     .main-div {
       height: 450px;
     }
+
     .ads-div {
       height: 10rem;
       width: 450px;
@@ -1176,7 +1177,7 @@
       align-items: center;
     }
     .first-div {
-      display: none
+      display: none;
     }
     .big-div {
       width: 100%;
