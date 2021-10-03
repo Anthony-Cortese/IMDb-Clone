@@ -230,10 +230,6 @@
 }
 
  @media (max-width: 850px) {
-  .background-img {
-    height: 783px;
-    width: 90%;
-  }
   .second-div {
     height: 783px;
     width: 681px;

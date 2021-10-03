@@ -12,7 +12,8 @@ The play buttons on the home screen are fully functional and bring up a trailer 
 
 The main movie can change with a horizontal scroll.
 
+The coming soon to theatres section are short films that have been directed by me.
+
 The Trending celebrities can update with a horizontal scroll.
 
 The website is fully responsive, and the information in Featured Today, Fan Favorites, Exclusive Videos, Explore what is streaming, On TV, Trending Celebrities, and Top News is all available with a horizontal scroll.
-
