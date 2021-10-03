@@ -24,6 +24,7 @@
   /* border: 1px solid white; */
   display: flex;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .ads-div {
@@ -31,16 +32,17 @@
   width: 50rem;
   /* border: 1px solid orange; */
   display: flex;
+  
 }
 
 .ad-img {
   height: 13.125rem;
   width: 48.75rem;
   object-fit: cover;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   /* position: relative; */
 
-  bottom: 1rem;
+  bottom: 2rem;
 }
 
 .up-next1 {
