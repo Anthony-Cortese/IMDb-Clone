@@ -73,8 +73,8 @@
 .pro-img {
   width: 120px;
   height: 46px;
-  position: relative;
-  bottom: 1rem;
+  /* position: relative; */
+  margin-bottom: 2rem;
 }
 
 .pro-links {
