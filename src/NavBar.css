@@ -479,7 +479,7 @@ select:focus {
 
 @media (max-width: 600px) {
   .main-navbar {
-    width: 105%;
+    width: 100%;
   }
 }
 
@@ -491,18 +491,18 @@ select:focus {
 
 @media (max-width: 500px) {
   .main-navbar {
-    width: 105%;
+    width: 100%;
   }
 }
 
 @media (max-width: 450px) {
   .main-navbar {
-    width: 112%;
+    width: 100%;
   }
 }
 
 @media (max-width: 400px) {
   .main-navbar {
-    width: 122%;
+    width: 100%;
   }
 }
