@@ -44,6 +44,11 @@
   justify-content: center;
 }
 
+@media (max-width: 800px) {
+  .footera {
+    font-size: 9px;
+  }
+}
 @media (max-width: 600px) {
   .footera {
     font-size: 9px;
@@ -51,6 +56,6 @@
 
   .main-footer {
     position: relative;
-    left: 1.5rem;
+    /* left: 1rem; */
   }
 }

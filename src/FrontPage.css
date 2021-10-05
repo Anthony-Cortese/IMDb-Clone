@@ -77,7 +77,7 @@
 .background-img1 {
   height: 547px;
   width: 870px;
-  background-image: url("https://i.postimg.cc/3wZH9Th2/zodiached.jpg");
+  background-image: url("https://i.postimg.cc/RhNW12dV/Zodiac-Lede-Fincher.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   /* bottom: 4rem;
@@ -243,19 +243,6 @@
   
 }
 
-
-
-/* @media (max-width: 750px) {
-  .background-img {
-    height: 783px;
-    width: 581px;
-  }
-  .second-div {
-    height: 783px;
-    width: 581px;
-    object-fit: contain;
-  }
-} */
 @media (max-width: 750px) {
   .second-div {
     height: 453px;
@@ -427,7 +414,7 @@
 @media (max-width: 500px) {
   .background-img {
     height: 382px;
-    width: 556px;
+    width: 525px;
   }
 
   .second-div {
@@ -450,6 +437,34 @@
   .second-front {
     position: relative;
     bottom: 2.5rem;
+  }
+  .background-img3 {
+    height: 432px;
+    width: 510px;
+    object-fit: contain;
+    left: 48px;
+  }
+
+  .background-img3:before {
+    height: 432px;
+    width: 510px;
+  }
+
+
+  .background-img1 {
+    height: 432px;
+    width: 510px;
+    /* background-image: url("https://i.ibb.co/GdWpnkj/screen-shot-2017-03-06-at-9-25-42-am-e1565367625930.png"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .background-img2 {
+    height: 532px;
+    width: 510px;
+    /* background-image: url("https://i.ibb.co/GdWpnkj/screen-shot-2017-03-06-at-9-25-42-am-e1565367625930.png"); */
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
 
