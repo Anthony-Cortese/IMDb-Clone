@@ -68,7 +68,6 @@ select:focus {
   background-color: rgb(20, 20, 20);
   height: 21.875rem;
   width: 37.5rem;
-  /* background-color: rgb(20, 20, 20); */
   position: absolute;
   padding: 6px;
 }
@@ -309,13 +308,14 @@ select:focus {
 
 @media (max-width: 1204px) {
   .main-navbar {
-    width: 100%;
+    width: 110%;
+    
   }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1060px) {
   .main-navbar {
-    width: 100%;
+    width: 110%;
   }
   
   .all-button {
@@ -418,7 +418,7 @@ select:focus {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 917px) {
   .main-navbar {
     width: 100%;
   }
@@ -434,6 +434,9 @@ select:focus {
 }
 
 @media (max-width: 750px) {
+  .main-navbar {
+    width: 104%
+  }
   .input {
     width: 16rem;
   }
@@ -461,7 +464,7 @@ select:focus {
   }
 
   .main-navbar {
-    width: 100%;
+    width: 102%;
     display: flex;
     justify-content: space-around;
   }
@@ -479,7 +482,7 @@ select:focus {
 
 @media (max-width: 600px) {
   .main-navbar {
-    width: 100%;
+    width: 103%;
   }
 }
 
@@ -491,13 +494,13 @@ select:focus {
 
 @media (max-width: 500px) {
   .main-navbar {
-    width: 100%;
+    width: 106%;
   }
 }
 
 @media (max-width: 450px) {
   .main-navbar {
-    width: 100%;
+    width: 115%;
   }
 }
 
