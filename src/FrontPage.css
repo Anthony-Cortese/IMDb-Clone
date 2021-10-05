@@ -244,7 +244,12 @@
 }
 
 @media (max-width: 750px) {
-  .second-div {
+
+  .background-img3:before {
+    height: 532px;
+    width: 681px;
+  }
+  /* .second-div {
     height: 453px;
     width: 581px;
     object-fit: cover;
@@ -264,7 +269,7 @@
     height: 383px;
     width: 581px;
     object-fit: cover;
-  }
+  } */
 
   .second-info {
     /* height: 385px */
@@ -298,6 +303,10 @@
 
 
 @media (max-width: 650px) {
+
+  .main-div {
+    height: 480px;
+  }
   .background-img3 {
     height: 432px;
     width: 581px;
@@ -412,6 +421,11 @@
 }
 
 @media (max-width: 500px) {
+
+  .main-div {
+    height: 420px;
+  }
+
   .background-img {
     height: 382px;
     width: 525px;
