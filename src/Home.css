@@ -1209,22 +1209,32 @@
 
   @media (max-width: 450px) {
     .big-div {
-      min-width: 490px;
-      left: 40px;
+      max-width: 400px;
+      position: relative;
+      right: 30px;
+    }
+    .main-div {
+      height: 350px;
     }
   }
 
   @media (max-width: 400px) {
     .big-div {
-      min-width: 470px;
-      left: 40px;
+      max-width: 400px;
+      right: 40px;
+    }
+    .main-div {
+      height: 320px;
     }
   }
 
   @media (max-width: 375px) {
     .big-div {
-      min-width: 430px;
-      left: 40px;
+      max-width: 390px;
+      right: 40px;
+    }
+    .main-div {
+      height: 300px;
     }
   }
 

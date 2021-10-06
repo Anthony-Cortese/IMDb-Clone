@@ -500,12 +500,18 @@ select:focus {
 
 @media (max-width: 450px) {
   .main-navbar {
-    width: 118%;
+    width: 100%;
   }
 }
 
 @media (max-width: 400px) {
   .main-navbar {
-    width: 122%;
+    width: 110%;
+  }
+}
+
+@media (max-width: 350px) {
+  .main-navbar {
+    width: 125%;
   }
 }
