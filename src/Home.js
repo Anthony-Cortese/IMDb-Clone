@@ -83,7 +83,11 @@ function Home() {
           <p className="p-tag">
             Save shows and movies to keep track of what you want to watch.
           </p>
-          <button onClick="href='./SignIn'" className="regular-button">
+          <button
+            onClick="href='./SignIn'"
+            alert="Just Kidding"
+            className="regular-button"
+          >
             Sign in to IMDb
           </button>
         </div>

@@ -40,7 +40,9 @@ function FanFavorites() {
               <div className="rating">☆8.2</div>
               <div className="film-name">Zack Snyder's Justice League</div>
               <div className="options">
-                <button className="watch-button">Watch Options</button>
+                <button className="watch-button" message="Just Kidding">
+                  Watch Options
+                </button>
                 <button className="watch-button1">▶︎ Trailer</button>
               </div>
             </div>

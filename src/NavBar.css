@@ -309,14 +309,14 @@ select:focus {
 
 @media (max-width: 1204px) {
   .main-navbar {
-    width: 100%;
+    width: 103%;
     
   }
 }
 
 @media (max-width: 1060px) {
   .main-navbar {
-    width: 100%;
+    width: 107%;
   }
   
   .all-button {
