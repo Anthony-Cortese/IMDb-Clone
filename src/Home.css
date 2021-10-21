@@ -31,22 +31,19 @@
 .ads-div {
   height: 13rem;
   width: 50rem;
-  /* border: 1px solid orange; */
   display: flex;
-  margin-top: 2rem;
+  /* position: relative; */
   
   
 }
 
 .ad-img {
-  height: 13.125rem;
+  height: 15.125rem;
   width: 48.75rem;
   object-fit: cover;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
+  /* position: relative; */
   
-  /* position: relative;
-
-  bottom: 1rem; */
 }
 
 .up-next1 {
@@ -1077,6 +1074,7 @@
     width: 100%;
     object-fit: contain;
     margin-bottom: 2rem;
+    /* position: inher; */
   }
 
   /* .editors-img {
@@ -1195,7 +1193,7 @@
   @media (max-width: 500px) {
     .big-div {
       max-width: 100%;
-      left: 15px;
+      /* right: 15px; */
     }
 
     .main-div {
@@ -1211,7 +1209,7 @@
     .big-div {
       max-width: 400px;
       position: relative;
-      right: 30px;
+      /* right: 30px; */
     }
     .main-div {
       height: 350px;
@@ -1221,7 +1219,7 @@
   @media (max-width: 400px) {
     .big-div {
       max-width: 400px;
-      right: 40px;
+      /* right: 40px; */
     }
     .main-div {
       height: 320px;

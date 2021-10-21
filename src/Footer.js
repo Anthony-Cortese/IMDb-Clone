@@ -12,59 +12,67 @@ function Footer() {
   return (
     <div className="main-footer">
       <div className="top-footer">
-        <a className='footera' href={url}>
+        <p className="footera" href={url}>
           <AiFillFacebook className="nav-icons" />
-        </a>
-        <a className='footera' href={url}>
+        </p>
+        <p className="footera" href={url}>
           <FiInstagram className="nav-icons" />
-        </a>
-        <a className='footera'href={url}>
+        </p>
+        <p className="footera" href={url}>
           <FaTwitch className="nav-icons" />
-        </a>
-        <a className='footera'href={url}>
+        </p>
+        <p className="footera" href={url}>
           <GrTwitter className="nav-icons" />
-        </a>
-        <a className='footera'href={url}>
+        </p>
+        <p className="footera" href={url}>
           <AiFillYoutube className="nav-icons" />
-        </a>
+        </p>
       </div>
       <div className="middle-footer">
-        <a className='footera'href={url}>
+        <p className="footera" href={url}>
           Get The IMDb App <BsBoxArrowInUpRight />{" "}
-        </a>
-        <a className='footera'href={url}>
+        </p>
+        <p className="footera" href={url}>
           Help <BsBoxArrowInUpRight />{" "}
-        </a>
-        <a className='footera'href={url}>
+        </p>
+        <p className="footera" href={url}>
           Site Index <BsBoxArrowInUpRight />{" "}
-        </a>
-        <a className='footera'href={url}>
+        </p>
+        <p className="footera" href={url}>
           IMDbPro <BsBoxArrowInUpRight />{" "}
-        </a>
-        <a className='footera'href={url}>IMDb TV </a>
-        <a className='footera'href={url}>
+        </p>
+        <p className="footera" href={url}>
+          IMDb TV{" "}
+        </p>
+        <p className="footera" href={url}>
           Box Office Mojo <BsBoxArrowInUpRight />{" "}
-        </a>
-        <a className='footera'href={url}>
+        </p>
+        <p className="footera" href={url}>
           IMDb Developer
           <BsBoxArrowInUpRight />{" "}
-        </a>
+        </p>
       </div>
       <div className="bottom-footer">
-        <a className='footera'href={url}>Press Room </a>
-        <a className='footera'href={url}>
+        <p className="footera" href={url}>
+          Press Room{" "}
+        </p>
+        <p className="footera" href={url}>
           Advertising
           <BsBoxArrowInUpRight />{" "}
-        </a>
-        <a className='footera'href={url}>
+        </p>
+        <p className="footera" href={url}>
           Jobs <BsBoxArrowInUpRight />{" "}
-        </a>
-        <a className='footera'href={url}>Conditions of Use </a>
-        <a className='footera'href={url}>Privacy Policy </a>
-        <a className='footera'href={url}>
+        </p>
+        <p className="footera" href={url}>
+          Conditions of Use{" "}
+        </p>
+        <p className="footera" href={url}>
+          Privacy Policy{" "}
+        </p>
+        <p className="footera" href={url}>
           Internet-Based Ads
           <BsBoxArrowInUpRight />{" "}
-        </a>
+        </p>
       </div>
 
       <div className="amazon1">an amazon company</div>

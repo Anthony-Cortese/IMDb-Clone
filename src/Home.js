@@ -32,10 +32,16 @@ function Home() {
         <div className="ads-div">
           <img
             className="ad-img"
+            src="https://i.postimg.cc/k5W4ZW1d/61-Ktd-FSfik-L-QL85-V1.jpg"
+            alt="71pubpl-JHn-L"
+            border="0"
+          />
+          {/* <img
+            className="ad-img"
             src="https://i.postimg.cc/Fz5fWNXD/imdb-tv.jpg' border='0' alt='imdb-tv"
             alt="imdb-tv"
             border="0"
-          />
+          /> */}
         </div>
       </div>
       <div className="main-div">
@@ -51,9 +57,9 @@ function Home() {
 
           <Almost />
 
-          <a className="browse" href="www">
+          <p className="browse" href="www">
             Browse Trailers ➤
-          </a>
+          </p>
         </div>
       </div>
       <div className="featured-div">
@@ -451,7 +457,8 @@ function Home() {
           <div className="celeb-name"></div>
         </div>
       </div>
-      <News /> 
+      <News />
+       
     </div>
   );
 }

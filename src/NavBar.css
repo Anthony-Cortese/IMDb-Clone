@@ -76,6 +76,7 @@ select:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
 }
 .movie-poster {
   display: flex;
@@ -87,7 +88,7 @@ select:focus {
   width: 174px;
   /* border: 1px solid black; */
   position: relative;
-  bottom: 1.4rem;
+  top: .8rem;
 }
 
 button:focus,
@@ -308,14 +309,14 @@ select:focus {
 
 @media (max-width: 1204px) {
   .main-navbar {
-    width: 111%;
+    width: 100%;
     
   }
 }
 
 @media (max-width: 1060px) {
   .main-navbar {
-    width: 113%;
+    width: 100%;
   }
   
   .all-button {

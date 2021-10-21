@@ -14,11 +14,12 @@
   margin-left: 15px;
   font-family: "Amazon Ember";
   font-size: 17px;
-  /* position: absolute; */
+  position: relative;
 }
 
 .dropdown:hover {
   background-color: #505050;
+  /* position: absolute; */
 }
 
 .dropdown-icon {

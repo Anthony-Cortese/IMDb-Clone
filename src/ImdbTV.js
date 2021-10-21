@@ -8,10 +8,16 @@ function ImdbTv() {
   return (
     <div className="imdbtv-div">
       <div className="main-ads">
-        <img
+        {/* <img
           className="main-ads-img"
           src="https://i.postimg.cc/k5W4ZW1d/61-Ktd-FSfik-L-QL85-V1.jpg"
           alt="71pubpl-JHn-L"
+          border="0"
+        /> */}
+        <img
+          className="main-ads-img"
+          src="https://i.postimg.cc/Fz5fWNXD/imdb-tv.jpg' border='0' alt='imdb-tv"
+          alt="imdb-tv"
           border="0"
         />
       </div>
