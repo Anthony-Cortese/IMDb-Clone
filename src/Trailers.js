@@ -57,7 +57,8 @@ function Trailers() {
             <BiBookmarkPlus className="trailer-icon" />
             <div className="movie-dates">
               <p className="p-tag">April 2</p>
-              <p className="p-tag">Naomi</p>
+              <p className="p-tag">Venice</p>
+              <p className="p-tag4">Explicit Language Warning</p>
             </div>
           </div>
           <div className="trailer-info">

@@ -44,6 +44,11 @@ body {
   justify-content: center;
   min-width: 100vw;
 }
+
+.p-tag4 {
+  color: red;
+  font-size: 10px;
+}
 .navigation {
   height: 100%;
   width: 100%;
