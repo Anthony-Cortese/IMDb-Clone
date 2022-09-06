@@ -1,13 +1,31 @@
 # IMDb-clone
 
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/Anthony-Cortese/IMDb-Clone">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+<h3 align="center">IMDb-Clone</h3>
+
+  <p align="center">
+    project_description
+    <br />
+    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    ·
+    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+  </p>
+</div>
+
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+After watching and coding along with several tutorials online I wanted to test my overall knowledge and implementation of React and CSS so I decided I would build my favorite website from scratch. This felt like such an undertaking to begin-- but once I began I found so much joy in adding new features, and completely making this website MINE.
 
 ## Getting Started
 
@@ -26,6 +44,22 @@ npm install
 ```sh
 yarn install
 ```
+
+## Features
+
+If your project has a lot of features, list them here.
+
+## Usage
+
+Provide instructions and examples for use. Include screenshots as needed.
+
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+
+    ```md
+    ![alt text](assets/images/screenshot.png)
+    ```
+
+## Credits
 
 Deployed site: https://akc-imdb.netlify.app/
 
