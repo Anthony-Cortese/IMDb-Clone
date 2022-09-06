@@ -11,9 +11,9 @@ function NavBar() {
   const [click, setClick] = useState(false);
   const [open, setOpen] = useState(false);
   const [isShown, setIsShown] = useState(false);
-  //   const [sidebar, setSidebar] = useState(false);
+  const [sidebar, setSidebar] = useState(false);
 
-  //   /const showSidebar = () => setSidebar(!sidebar);
+  const showSidebar = () => setSidebar(!sidebar);
 
   const handleClick = () => setClick(!click);
 
@@ -21,7 +21,7 @@ function NavBar() {
     <header className="main-navbar">
       <div className="imdb-logo">
         <div className="media-menu">
-          {/* <button id='menu-div' onClick={() => setSidebar(sidebar => !sidebar)} className='media-menu-button'><TiThMenu className='nav-dots' />
+          {/* <button id='menu-div' onClick={() => showSidebar} className='media-menu-button'><TiThMenu className='nav-dots' />
             </button> */}
           {/* {sidebar && <Sidebar />} */}
         </div>
