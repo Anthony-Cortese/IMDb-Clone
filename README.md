@@ -54,16 +54,18 @@ yarn install
 ## Usage
 
 <div align="center">
-    <img src="./images/1.png" alt="IMDbYV" width="220" height="200">
+    <img src="./images/1.png" alt="IMDbYV" width="320" height="200">
 </div>
 
-    ![IMDbTV](/images/1.png)
+[![Product Name Screen Shot][product-screenshot]](/images/1.png)
 
-    ![Homepage](/images/2.png)
+![IMDbTV](/images/1.png)
 
-    ![Navigation](/images/3.png)
+![Homepage](/images/2.png)
 
-    ![Trailers](/images/4.png)
+![Navigation](/images/3.png)
+
+![Trailers](/images/4.png)
 
 ## Credits
 
