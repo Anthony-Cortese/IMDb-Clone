@@ -19,7 +19,7 @@ function Trailers() {
         <div className="new-movie-div">
           <div className="new-movie">
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=_VJgaDE7W-c&t=1s"
+              url="https://www.youtube.com/watch?v=i2j5SD5gZKw"
               controls
               // playbackRate = {2}
               height="221.97px"
@@ -28,7 +28,7 @@ function Trailers() {
           </div>
           <div className="new-movie">
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=jr6vgvhJlH0"
+              url="https://www.youtube.com/watch?v=qGuTxIcL__8"
               controls
               // playbackRate = {2}
               height="221.97px"
@@ -37,7 +37,7 @@ function Trailers() {
           </div>
           <div className="new-movie">
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=_VJgaDE7W-c&t=1s"
+              url="https://www.youtube.com/watch?v=nmVRBeVfBB4"
               controls
               // playbackRate = {2}
               height="221.97px"
@@ -64,8 +64,8 @@ function Trailers() {
           <div className="trailer-info">
             <BiBookmarkPlus className="trailer-icon" />
             <div className="movie-dates">
-              <p className="p-tag">March 18</p>
-              <p className="p-tag">Underneath The Bottom</p>
+              <p className="p-tag">July 29</p>
+              <p className="p-tag">Once Upon A Time In... Provo</p>
             </div>
           </div>
         </div>

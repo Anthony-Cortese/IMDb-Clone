@@ -15,7 +15,7 @@ function NavBar() {
   const [isShown, setIsShown] = useState(false);
   const [sidebar, setSidebar] = useState(false);
 
-  const showSidebar = () => setSidebar(sidebar);
+  const showSidebar = () => setSidebar(!sidebar);
   console.log(showSidebar);
 
   const handleClick = () => setClick(!click);
@@ -32,8 +32,8 @@ function NavBar() {
           className="media-menu-button"
         >
           <TiThMenu className="nav-dots" />
-        </button>
-        {<Sidebar />}{" "}
+        </button>{" "}
+        {sidebar && <Sidebar />}{" "}
       </div>
       <div className="imdb-logo">
         <Link to="/">
