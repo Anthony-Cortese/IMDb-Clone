@@ -53,18 +53,13 @@ yarn install
 
 ## Usage
 
-    ```md
     ![IMDbTV](/images/1.png)
-    ```
-    ```md
+
     ![Homepage](/images/2.png)
-    ```
-    ```md
+
     ![Navigation](/images/3.png)
-    ```
-      ```md
+
     ![Trailers](/images/4.png)
-    ```
 
 ## Credits
 
