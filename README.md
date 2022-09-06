@@ -16,7 +16,7 @@
 
 ## Description
 
-After watching and coding along with several tutorials online I wanted to test my overall knowledge and implementation of React and CSS so I decided I would build my favorite website from scratch. This felt like such an undertaking to begin-- but once I began I found so much joy in adding new features, and completely making this website MINE.
+After watching and coding along with several tutorials online I wanted to test my overall knowledge and implementation of React and CSS so I decided I would build my favorite website from scratch. This felt like such an undertaking to begin-- but once I began I found so much joy in adding my own features, and completely making the info on the website MINE.
 
 ![badge](https://img.shields.io/badge/license-MITLicense-brightorange)
 
@@ -38,26 +38,32 @@ npm install
 yarn install
 ```
 
-## Roadmap/Features
-
-- [ ] Fully functional navigation bar.
-  - [ ] Each button takes you to a new page, some buttons even have hover capabilities.
-- [ ] The play buttons on the home screen next to movie posters will open up a trailer which is unique to the button pressed.
-- [ ] The "Coming Soon to Theatres" section are all short films that I have directed/edited.
-- [ ] On the IMDbTV page I used the TMDB API to retrieve movie poster data based on different genres.
-  - [ ] Each movie poster is made clickable to open a movie trailer from YouTube.
-- [ ] Responsive website allows information to be hidden and revealed with a horizontal scroll.
-  - [ ] Featured Today, Fan Favorites, Exclusive Videos, Explore, On TV, Trending Celebrities, and Top News all have the horizontal scroll functionality!
-
-## Usage
-
-![IMDbTV](/images/1.png)
+## Features/Usage
 
 ![Homepage](/images/2.png)
 
+![IMDbTV](/images/1.png)
+
+- [ ] On the IMDbTV page I used the TMDB API to retrieve movie poster data based on different genres.
+  - [ ] Each movie poster is made clickable to open a movie trailer from YouTube.
+
 ![Navigation](/images/3.png)
 
+- [ ] Fully functional navigation bar.
+  - [ ] Each button takes you to a new page, some buttons even have hover capabilities.
+
 ![Trailers](/images/4.png)
+
+- [ ] The play buttons on the home screen next to movie posters will open up a trailer which is unique to the button pressed.
+
+![Coming](/images/5.png)
+
+- [ ] The "Coming Soon to Theatres" section are all short films that I have directed/edited for my amatuer Production Company
+
+![Responsive](/images/6.png)
+
+- [ ] Responsive website allows information to be hidden and revealed with a horizontal scroll.
+  - [ ] Featured Today, Fan Favorites, Exclusive Videos, Explore, On TV, Trending Celebrities, and Top News all have the horizontal scroll functionality!
 
 ## Credits
 
