@@ -53,12 +53,17 @@ yarn install
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
     ```md
-    ![alt text](images/1.png)
+    ![IMDbTV](/images/1.png)
+    ```
+    ```md
+    ![Homepage](/images/2.png)
+    ```
+    ```md
+    ![Navigation](/images/3.png)
+    ```
+      ```md
+    ![Trailers](/images/4.png)
     ```
 
 ## Credits
