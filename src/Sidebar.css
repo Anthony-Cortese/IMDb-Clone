@@ -1,19 +1,25 @@
-.navbar {
-  background-color: #060b26;
-  height: 80px;
+.sidebar {
+  background-color: #2d2d2d;
   display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  width: 280px;
-  height: 649px;
+  width: 380px;
+  height: 749px;
   position: absolute;
+  display: block;
   /* top: 10px; */
-  /* bottom: 10px; */
+  /* bottom: 1px; */
   left: -110%;
   transition: 850ms;
-  margin-top: 1rem;
-  background-color: rgb(20, 20, 20);
+  /* margin-top: 1rem; */
   /* align-items: center; */
+}
+
+.nav-menu-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 4rem;
+
 }
 
 @media (max-width: 1030px) {

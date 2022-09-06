@@ -22,7 +22,7 @@
   /* position: absolute; */
   top: 0.5rem;
   /* border: 8px solid orange; */
-  /* display: hidden; */
+  display: none;
 }
 
 .imdb-logo {
@@ -116,12 +116,14 @@ select:focus {
     object-fit: contain;
 } */
 .search-icon {
-  position: relative;
+  /* position: relative;
   right: 2rem;
-  top: 4px;
+  top: 4px; */
+  display: none;
   object-fit: contain;
-  font-size: 18px;
-  color: rgb(20, 20, 20);
+  font-size: 24px;
+  font-weight: bolder;
+  color: rgb(249, 247, 247);
   /* border: 1px solid red */
 }
 
@@ -382,12 +384,12 @@ select:focus {
     right: 7.5rem;
   }
   .media-menu {
-    width: 4rem;
+    width: 5rem;
     position: absolute;
-    top: 4.5rem;
-    left: 60px;
+    top: .8rem;
+    left: 20px;
     /* border: 8px solid orange; */
-    /* display: hidden; */
+    display: block;
   }
 
   .media-menu-button {
@@ -445,24 +447,10 @@ select:focus {
 
 @media (max-width: 700px) {
   .input {
-    display: none;
+   width: 12rem;
   }
 
-  .line {
-    display: none;
-  }
-
-  .search-icon {
-    color: whitesmoke;
-    font-size: 36px;
-    margin-top: 0.5rem;
-    /* position: relative; */
-    /* left: 4rem; */
-  }
-
-  .all-button {
-    display: none;
-  }
+  
 
   .main-navbar {
     width: 102%;
@@ -478,6 +466,8 @@ select:focus {
 
   .sign-in {
     font-size: 13px;
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -485,11 +475,53 @@ select:focus {
   .main-navbar {
     width: 103%;
   }
+
+  .input {
+    width: 8rem;
+  }
+
+  .imdb-image {
+    /* position: absolute; */
+    left: 2rem;
+    /* margin-bottom: 5rem; */
+    /* bottom: 1rem; */
+    /* margin-right: 18rem; */
+  }
+
+  .sign-in {
+    font-size: 13px;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  
 }
 
 @media (max-width: 550px) {
   .main-navbar {
     min-width: 100%;
+  }
+
+  .input {
+    display: none;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .all-button {
+    display: none;
+  }
+
+  .search-icon {
+    display: block;
+    position: absolute;
+    /* right: 5rem; */
+    left: 90%;
+    /* border: 72px solid red; */
+    
   }
 }
 
@@ -501,7 +533,11 @@ select:focus {
 
 @media (max-width: 450px) {
   .main-navbar {
-    width: 100%;
+    width: 103%;
+  }
+
+  .sign-in {
+    right: 4rem;
   }
 }
 
@@ -509,10 +545,14 @@ select:focus {
   .main-navbar {
     width: 110%;
   }
+
+  .sign-in {
+    right: 5rem;
+  }
 }
 
 @media (max-width: 350px) {
   .main-navbar {
-    width: 125%;
+    width: 115%;
   }
 }

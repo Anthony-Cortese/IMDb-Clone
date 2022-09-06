@@ -1,5 +1,3 @@
-# IMDb-clone
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -7,7 +5,7 @@
     <img src="./images/logo.png" alt="Logo" width="120" height="80">
   </a>
 
-<h1 align="center">IMDb-Clone</h1>
+<h1 align="center" size="24px">IMDb-Clone</h1>
 
   <p align="center">
     <br />
@@ -52,12 +50,6 @@ yarn install
   - [ ] Featured Today, Fan Favorites, Exclusive Videos, Explore, On TV, Trending Celebrities, and Top News all have the horizontal scroll functionality!
 
 ## Usage
-
-<div align="center">
-    <img src="./images/1.png" alt="IMDbYV" width="320" height="200">
-</div>
-
-[![Product Name Screen Shot][product-screenshot]](/images/1.png)
 
 ![IMDbTV](/images/1.png)
 

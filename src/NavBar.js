@@ -5,27 +5,37 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { TiThMenu } from "react-icons/ti";
 import { BiBookmarkPlus } from "react-icons/bi";
 import Dropdown from "./Dropdown";
+import Sidebar from "./Sidebar";
 
 function NavBar() {
   const url = "";
+
   const [click, setClick] = useState(false);
   const [open, setOpen] = useState(false);
   const [isShown, setIsShown] = useState(false);
   const [sidebar, setSidebar] = useState(false);
 
-  const showSidebar = () => setSidebar(!sidebar);
+  const showSidebar = () => setSidebar(sidebar);
+  console.log(showSidebar);
 
   const handleClick = () => setClick(!click);
+  console.log(handleClick);
 
+  console.log(sidebar);
+  console.log(setSidebar);
   return (
     <header className="main-navbar">
+      <div className="media-menu">
+        <button
+          id="menu-butt"
+          onClick={() => showSidebar}
+          className="media-menu-button"
+        >
+          <TiThMenu className="nav-dots" />
+        </button>
+        {<Sidebar />}{" "}
+      </div>
       <div className="imdb-logo">
-        <div className="media-menu">
-          {/* <button id='menu-div' onClick={() => showSidebar} className='media-menu-button'><TiThMenu className='nav-dots' />
-            </button> */}
-          {/* {sidebar && <Sidebar />} */}
-        </div>
-
         <Link to="/">
           <img
             className="imdb-image"
@@ -107,7 +117,6 @@ function NavBar() {
           name="query"
           placeholder="Search IMDb"
         ></input>{" "}
-        <AiOutlineSearch className="search-icon" />
       </div>
       {/* <div className='pro'> */}
       <Link to="/ImdbPro">
@@ -133,6 +142,8 @@ function NavBar() {
           Sign In
         </button>
       </Link>
+
+      <AiOutlineSearch className="search-icon" />
       {/* </div> */}
     </header>
   );
