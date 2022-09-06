@@ -53,6 +53,10 @@ yarn install
 
 ## Usage
 
+<div align="center">
+    <img src="./images/1.png" alt="IMDbYV" width="220" height="200">
+</div>
+
     ![IMDbTV](/images/1.png)
 
     ![Homepage](/images/2.png)
