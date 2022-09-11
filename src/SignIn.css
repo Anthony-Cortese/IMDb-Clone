@@ -185,7 +185,9 @@ h1 {
 
 @media (max-width: 550px) {
   .main-div1 {
-    min-width: 100vw;
+    min-width: 95%;
+    position: relative;
+    right: 1rem;
     /* left: 95px; */
   }
 }

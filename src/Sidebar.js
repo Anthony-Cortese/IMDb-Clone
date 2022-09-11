@@ -15,16 +15,20 @@ import "./NavBar.css";
 function Sidebar() {
   const url = "";
 
-  const [sidebar, setSidebar] = useState(false);
+  // const [sidebar, setSidebar] = useState(false);
+  const [active, setActive] = useState(false);
 
-  const showSidebar = () => setSidebar(!sidebar);
-  console.log(showSidebar);
+  const activateNav = () => {
+    setActive(!active);
+  };
+
+  // const showSidebar = () => setSidebar(!sidebar);
 
   return (
     <div className="sidebar">
       <div className="dropdown">X</div>
-      <nav className={sidebar ? "nav-menu-active" : "nav-menu"}>
-        <ul className="nav-menu-items" onClick={showSidebar}>
+      <nav className={active ? "nav-menu-active" : "nav-menu"}>
+        <ul className="nav-menu-items" onClick={activateNav}>
           <li className="navbar-toggle"></li>
           <a className="dropdown" href={url}>
             <AiOutlineSearch className="dropdown-icon" />{" "}

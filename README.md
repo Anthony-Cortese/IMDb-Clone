@@ -5,7 +5,7 @@
     <img src="./images/logo.png" alt="Logo" width="120" height="80">
   </a>
 
-<h1 align="center" size="24px">IMDb-Clone</h1>
+<h1 align="center" size="44px">IMDb-Clone</h1>
 
   <p align="center">
     <br />
@@ -16,9 +16,19 @@
 
 ## Description
 
-After watching and coding along with several tutorials online I wanted to test my overall knowledge and implementation of React and CSS so I decided I would build my favorite website from scratch. This felt like such an undertaking to begin-- but once I began I found so much joy in adding my own features, and completely making the info on the website MINE.
+After watching and coding along with several tutorials online I wanted to test my overall knowledge and implementation of React and CSS so I decided I would build my favorite website from scratch. This felt like such an undertaking to begin-- but once I began I found so much joy in building out the skeleton, adding my own features, and completely making the info on the website MINE. This project was a giant learning experience for me
+
+1. Think mobile first-- The entire website was built before I began to make the site responsive with media queries. NEVER AGAIN. There are so many different sections on the homepage alone, that you fix one area, while breaking another one.
+
+2. DRY code-- There were so many instances where I could have cleaned up different components by using the .map() method with an array of data, rather than coding each bit by bit out. There is so much code to look at it can be over whelming.
+
+3. Notation-- Once my code is cleaner, it will be far easier to read but using notations to organize your thoughts if you are returning to the project after time away. ESPECIALLY THE CSS. Make tons of notes on your CSS files so you are able to locate problems much easier.
+
+4. Organization-- Under the SRC folder all the Components and pages are just listed out and not in their seperate folders. Each .CSS page has the same name as the .JS page. THIS IS JUST SLOPPY. Clean up and stay organized.
 
 ![badge](https://img.shields.io/badge/license-MITLicense-brightorange)
+![https://reactjs.org](https://img.shields.io/badge/react-v16.13.1-blue)
+![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)
 
 ## Getting Started
 
@@ -32,10 +42,18 @@ Install NPM packages
 npm install
 ```
 
+```sh
+npm start
+```
+
 - yarn
 
 ```sh
 yarn install
+```
+
+```sh
+yarn start
 ```
 
 ## Features/Usage

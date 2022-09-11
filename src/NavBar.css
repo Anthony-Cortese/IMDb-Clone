@@ -37,7 +37,7 @@
 }
 
 .all {
-  /* position: absolute; */
+  
 }
 
 .imdb-image {
@@ -109,6 +109,7 @@ select:focus {
 .tv {
   margin: 0.8rem;
   object-fit: contain;
+  z-index: 999;
 }
 
 /* .pro {
@@ -242,10 +243,16 @@ select:focus {
   transition-duration: 0.4s;
   border-radius: 3px;
   font-family: "Amazon Ember";
+  z-index: 999;
 }
 
 .imdb-pro:hover {
   background-color: #505050;
+  z-index: 999;
+}
+
+.show-page {
+  z-index: 999;
 }
 .line {
   height: 35px;
@@ -500,7 +507,7 @@ select:focus {
 
 @media (max-width: 550px) {
   .main-navbar {
-    min-width: 100%;
+    max-width: 100vw;
   }
 
   .input {
@@ -543,7 +550,7 @@ select:focus {
 
 @media (max-width: 400px) {
   .main-navbar {
-    width: 110%;
+    width: 100%;
   }
 
   .sign-in {
@@ -553,6 +560,6 @@ select:focus {
 
 @media (max-width: 350px) {
   .main-navbar {
-    width: 115%;
+    min-width: 105%;
   }
 }

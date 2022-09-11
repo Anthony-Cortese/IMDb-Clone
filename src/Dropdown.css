@@ -6,6 +6,7 @@
   background-color: lightblue;
   position: absolute;
   background-color: rgb(20, 20, 20);
+  z-index: 999;
   /* position: absolute; */
 }
 
